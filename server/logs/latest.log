@@ -851,3 +851,118 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 [03:52:18] [Server thread/INFO]: kylecrane left the game.
 [03:54:29] [Thread-15/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
 [03:54:29] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47892] logged in with entity id 32807 at ([world]23.969947867902583, 64.0, 277.58536774765724)
+[03:55:29] [Server thread/INFO]: kylecrane issued server command: /gamemode 2
+[03:55:29] [Server thread/INFO]: [kylecrane: Set own game mode to Adventure Mode]
+[03:55:35] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
+[03:55:35] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
+[03:56:50] [Server thread/INFO]: kylecrane issued server command: /difficulty hard
+[03:56:50] [Server thread/INFO]: [kylecrane: Set game difficulty to Hard]
+[03:57:29] [Async Chat Thread - #7/INFO]: <CHUCKULETTTTTT__> brb[m
+
+[03:57:37] [Async Chat Thread - #7/INFO]: <kylecrane> k[m
+
+[03:57:43] [Server thread/INFO]: CHUCKULETTTTTT__ lost connection: Disconnected
+[03:57:43] [Server thread/INFO]: CHUCKULETTTTTT__ left the game.
+[03:58:20] [Server thread/INFO]: kylecrane issued server command: /butcher
+[03:58:24] [Server thread/INFO]: kylecrane issued server command: /butcher
+[03:58:30] [Server thread/INFO]: kylecrane lost connection: Disconnected
+[03:58:30] [Server thread/INFO]: kylecrane left the game.
+[03:58:59] [Thread-16/INFO]: UUID of player CHUCKULETTTTTT__ is 47b3ed06-6722-3069-8f16-3e469a6f5cf3
+[03:58:59] [Server thread/INFO]: CHUCKULETTTTTT__[/[0:0:0:0:0:0:0:1]:49128] logged in with entity id 33943 at ([world]8.352048576783307, 64.0, 286.43179521850345)
+[04:00:23] [Server thread/INFO]: CHUCKULETTTTTT__ lost connection: Disconnected
+[04:00:23] [Server thread/INFO]: CHUCKULETTTTTT__ left the game.
+[04:19:37] [Thread-17/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[04:19:37] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:55084] logged in with entity id 34080 at ([world]-186.6801194040515, 116.24360515239242, 536.0777648841628)
+[04:20:40] [Server thread/INFO]: kylecrane issued server command: /kill @e
+[04:20:40] [Server thread/INFO]: kylecrane fell out of the world
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed kylecrane]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Spider]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Minecart]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Enderman]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.item.egg]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Experience Orb]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
+[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
+[04:20:57] [Server thread/INFO]: kylecrane issued server command: /butcher
+[04:27:35] [Server thread/INFO]: kylecrane issued server command: /butcher
+[04:34:51] [Server thread/INFO]: kylecrane lost connection: Disconnected
+[04:34:51] [Server thread/INFO]: kylecrane left the game.
+[04:35:17] [Thread-19/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[04:35:17] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:55166] logged in with entity id 36470 at ([world]38.081452149126214, 13.0, 307.4970551563342)
+[04:35:47] [Server thread/INFO]: kylecrane lost connection: Login timed out!
+[04:35:47] [Server thread/INFO]: kylecrane left the game.
+[04:35:47] [Server thread/WARN]: handleDisconnection() called twice

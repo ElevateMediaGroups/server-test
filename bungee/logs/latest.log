@@ -99,3 +99,33 @@
 [03:54:29] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:58610]: Logged in as 'kylecrane'
 [03:54:29] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58610|kylecrane] -> UpstreamBridge has connected
 [03:54:29] [Netty Worker IO Thread #3/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:58610] <-> ServerConnector [lobby] has connected
+[03:57:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48206|CHUCKULETTTTTT__] -> UpstreamBridge has disconnected
+[03:57:43] [Netty Worker IO Thread #3/INFO]: [CHUCKULETTTTTT__] disconnected with: Proxy lost connection to server.
+[03:57:43] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48206|CHUCKULETTTTTT__] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:58:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58610|kylecrane] -> UpstreamBridge has disconnected
+[03:58:30] [Netty Worker IO Thread #3/INFO]: [kylecrane] disconnected with: Proxy lost connection to server.
+[03:58:30] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:58610|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
+[03:58:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48918]: Connected via websocket
+[03:58:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48918]: Origin header is https://calculatorgames.github.io
+[03:58:59] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48918]: Logged in as 'CHUCKULETTTTTT__'
+[03:58:59] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48918|CHUCKULETTTTTT__] -> UpstreamBridge has connected
+[03:58:59] [Netty Worker IO Thread #1/INFO]: [CHUCKULETTTTTT__|/[0:0:0:0:0:0:0:1%0]:48918] <-> ServerConnector [lobby] has connected
+[04:00:23] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48918|CHUCKULETTTTTT__] -> UpstreamBridge has disconnected
+[04:00:23] [Netty Worker IO Thread #1/INFO]: [CHUCKULETTTTTT__] disconnected with: Proxy lost connection to server.
+[04:00:23] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:48918|CHUCKULETTTTTT__] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:19:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54916]: Connected via websocket
+[04:19:36] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54916]: Origin header is https://eaglercraft.com
+[04:19:37] [Netty Worker IO Thread #0/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:54916]: Logged in as 'kylecrane'
+[04:19:37] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54916|kylecrane] -> UpstreamBridge has connected
+[04:19:37] [Netty Worker IO Thread #0/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:54916] <-> ServerConnector [lobby] has connected
+[04:34:51] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54916|kylecrane] -> UpstreamBridge has disconnected
+[04:34:51] [Netty Worker IO Thread #0/INFO]: [kylecrane] disconnected with: Proxy lost connection to server.
+[04:34:51] [Netty Worker IO Thread #0/INFO]: [/[0:0:0:0:0:0:0:1%0]:54916|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:35:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40064]: Connected via websocket
+[04:35:16] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40064]: Origin header is https://eaglercraft.com
+[04:35:17] [Netty Worker IO Thread #2/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:40064]: Logged in as 'kylecrane'
+[04:35:17] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40064|kylecrane] -> UpstreamBridge has connected
+[04:35:17] [Netty Worker IO Thread #2/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:40064] <-> ServerConnector [lobby] has connected
+[04:35:47] [Netty Worker IO Thread #2/INFO]: [kylecrane] disconnected with: Login timed out!
+[04:35:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40064|kylecrane] -> UpstreamBridge has disconnected
+[04:35:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40064|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
