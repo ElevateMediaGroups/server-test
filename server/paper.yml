@@ -40,8 +40,6 @@ world-settings:
       tnt-entities: false
       falling-blocks: false
     disable-teleportation-suffocation-check: false
-    player-blocking-damage-multiplier: 0.5
-    falling-block-height-nerf: 0
     remove-unloaded:
       enderpearls: true
       tnt-entities: true
@@ -52,6 +50,7 @@ world-settings:
       disable-chest-cat-detection: false
       disable-end-credits: false
     nether-ceiling-void-damage: false
+    player-blocking-damage-multiplier: 0.5
     remove-invalid-mob-spawner-tile-entities: true
     optimize-explosions: false
     mob-spawner-tick-rate: 1
@@ -72,6 +71,7 @@ world-settings:
     despawn-ranges:
       soft: 32
       hard: 128
+    falling-block-height-nerf: 0
     fast-drain:
       lava: false
       water: false

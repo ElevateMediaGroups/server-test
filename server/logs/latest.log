@@ -1,38 +1,38 @@
-[03:18:06] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:18:06] [Server thread/INFO]: Loading properties
-[03:18:06] [Server thread/INFO]: Default game type: SURVIVAL
-[03:18:07] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:18:07] [Server thread/INFO]: Debug logging is disabled
-[03:18:07] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[03:18:07] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[18:27:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[18:27:20] [Server thread/INFO]: Loading properties
+[18:27:21] [Server thread/INFO]: Default game type: SURVIVAL
+[18:27:22] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[18:27:23] [Server thread/INFO]: Debug logging is disabled
+[18:27:23] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[18:27:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[03:18:07] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:18:07] [Server thread/INFO]: Data value allowed items: 
-[03:18:07] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[18:27:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[18:27:23] [Server thread/INFO]: Data value allowed items: 
+[18:27:23] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[03:18:07] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[03:18:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[03:18:07] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[18:27:23] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[03:18:07] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[03:18:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[03:18:07] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[03:18:07] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[18:27:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[03:18:07] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[18:27:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[03:18:07] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[03:18:08] [Server thread/INFO]: Generating keypair
-[03:18:08] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[03:18:08] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[03:18:08] [Server thread/INFO]: Using default channel type
-[03:18:09] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
+[18:27:23] [Server thread/INFO]: Generating keypair
+[18:27:24] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[18:27:25] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[18:27:25] [Server thread/INFO]: Using default channel type
+[18:27:26] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,7 +42,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:18:09] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
+[18:27:26] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -52,7 +52,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:18:09] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
+[18:27:27] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -62,7 +62,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:18:09] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
+[18:27:27] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -72,8 +72,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:18:09] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:18:09] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
+[18:27:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[18:27:27] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -125,890 +125,207 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[03:18:09] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[03:18:09] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[03:18:09] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[03:18:09] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[03:18:09] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:18:09] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:18:09] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[03:18:09] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[03:18:09] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:18:09] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:18:10] [Server thread/INFO]: Preparing level "world"
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:18:10] [Server thread/INFO]: Mob Spawn Range: 4
-[03:18:10] [Server thread/INFO]: Anti X-Ray: true
-[03:18:10] [Server thread/INFO]: 	Engine Mode: 1
-[03:18:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:18:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:18:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:18:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:18:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:18:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:18:10] [Server thread/INFO]: Random Lighting Updates: false
-[03:18:10] [Server thread/INFO]: Structure Info Saving: true
-[03:18:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:18:10] [Server thread/INFO]: Max Entity Collisions: 8
-[03:18:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:18:10] [Server thread/INFO]: Max TNT Explosions: 100
-[03:18:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:18:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:18:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:18:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:18:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:18:10] [Server thread/INFO]: View Distance: 4
-[03:18:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:18:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:18:10] [Server thread/INFO]: Clear tick list: false
-[03:18:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:18:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:18:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:18:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:18:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:18:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:18:10] [Server thread/INFO]: Water over lava flow speed: 5
-[03:18:10] [Server thread/INFO]: Fix TNT cannons: false
-[03:18:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:18:10] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:18:10] [Server thread/INFO]: World async lighting: false
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:18:10] [Server thread/INFO]: Mob Spawn Range: 4
-[03:18:10] [Server thread/INFO]: Anti X-Ray: true
-[03:18:10] [Server thread/INFO]: 	Engine Mode: 1
-[03:18:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:18:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:18:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:18:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:18:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:18:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:18:10] [Server thread/INFO]: Random Lighting Updates: false
-[03:18:10] [Server thread/INFO]: Structure Info Saving: true
-[03:18:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:18:10] [Server thread/INFO]: Max Entity Collisions: 8
-[03:18:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:18:10] [Server thread/INFO]: Max TNT Explosions: 100
-[03:18:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:18:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:18:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:18:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:18:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:18:10] [Server thread/INFO]: View Distance: 4
-[03:18:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:18:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:18:10] [Server thread/INFO]: Clear tick list: false
-[03:18:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:18:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:18:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:18:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:18:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:18:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:18:10] [Server thread/INFO]: Water over lava flow speed: 5
-[03:18:10] [Server thread/INFO]: Fix TNT cannons: false
-[03:18:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:18:10] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:18:10] [Server thread/INFO]: World async lighting: false
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:18:10] [Server thread/INFO]: Mob Spawn Range: 4
-[03:18:10] [Server thread/INFO]: Anti X-Ray: true
-[03:18:10] [Server thread/INFO]: 	Engine Mode: 1
-[03:18:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:18:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:18:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:18:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:18:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:18:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:18:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:18:10] [Server thread/INFO]: Random Lighting Updates: false
-[03:18:10] [Server thread/INFO]: Structure Info Saving: true
-[03:18:10] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:18:10] [Server thread/INFO]: Max Entity Collisions: 8
-[03:18:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:18:10] [Server thread/INFO]: Max TNT Explosions: 100
-[03:18:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:18:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:18:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:18:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:18:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:18:10] [Server thread/INFO]: View Distance: 4
-[03:18:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:18:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:18:10] [Server thread/INFO]: Clear tick list: false
-[03:18:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:18:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:18:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:18:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:18:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:18:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:18:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:18:10] [Server thread/INFO]: Water over lava flow speed: 5
-[03:18:10] [Server thread/INFO]: Fix TNT cannons: false
-[03:18:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:18:10] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:18:10] [Server thread/INFO]: World async lighting: false
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:18:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:18:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
-[03:18:11] [Server thread/INFO]: Preparing spawn area: 5%
-[03:18:12] [Server thread/INFO]: Preparing spawn area: 29%
-[03:18:13] [Server thread/INFO]: Preparing spawn area: 45%
-[03:18:14] [Server thread/INFO]: Preparing spawn area: 66%
-[03:18:15] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
-[03:18:16] [Server thread/INFO]: Preparing spawn area: 6%
-[03:18:17] [Server thread/INFO]: Preparing spawn area: 13%
-[03:18:18] [Server thread/INFO]: Preparing spawn area: 24%
-[03:18:19] [Server thread/INFO]: Preparing spawn area: 62%
-[03:18:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
-[03:18:20] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[03:18:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[03:18:20] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
-
-[03:18:21] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[03:18:21] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[03:18:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[03:18:21] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:18:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[03:18:22] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[03:18:22] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[03:18:22] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[03:18:22] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[03:18:22] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[03:18:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:18:22] [Server thread/INFO]: Done (12.495s)! For help, type "help" or "?"
-[03:18:22] [Server thread/INFO]: Timings Reset
-[03:18:24] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
-
-[03:18:24] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
-
-[03:18:24] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
-
-[03:19:31] [Thread-7/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:19:31] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:43528] logged in with entity id 315 at ([world]48.15023984699522, 64.0, 264.1986087474834)
-[03:19:35] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:19:35] [Server thread/INFO]: kylecrane left the game.
-[03:21:53] [Thread-8/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:21:53] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:40094] logged in with entity id 316 at ([world]48.15023984699522, 64.0, 264.1986087474834)
-[03:22:03] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:22:03] [Server thread/INFO]: kylecrane left the game.
-[03:25:05] [Thread-10/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:25:05] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:52178] logged in with entity id 319 at ([world]48.15023984699522, 64.0, 264.1986087474834)
-[03:25:30] [Server thread/INFO]: kylecrane issued server command: /gamemoode c
-[03:25:38] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[03:25:38] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:25:44] [Thread-11/INFO]: UUID of player CHUCKULETTTTTT__ is 47b3ed06-6722-3069-8f16-3e469a6f5cf3
-[03:25:44] [Server thread/INFO]: CHUCKULETTTTTT__[/[0:0:0:0:0:0:0:1]:45340] logged in with entity id 336 at ([world]37.5, 65.0, 262.5)
-[03:26:05] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> umm[m
-
-[03:26:14] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> speedrunners vs hunter[m
-
-[03:26:19] [Async Chat Thread - #0/INFO]: <kylecrane> sure[m
-
-[03:26:22] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> and make me and admin[m
-
-[03:26:35] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> i could be like ur co-worker[m
-
-[03:27:17] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> hey put a platfrom down[m
-
-[03:27:32] [Server thread/INFO]: kylecrane issued server command: /enchant @s fire_aspect 1
-[03:27:32] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:27:37] [Server thread/INFO]: kylecrane issued server command: /enchant @s fire_aspect 1
-[03:27:37] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:27:39] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> soon as i leave the platfrom u gotta stop me from beating the game[m
-
-[03:27:52] [Server thread/INFO]: kylecrane issued server command: /gamemode 0
-[03:27:52] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:27:59] [Async Chat Thread - #0/INFO]: <kylecrane> ??[m
-
-[03:28:09] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[03:28:09] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:28:39] [Server thread/INFO]: kylecrane issued server command: /dificulty 0
-[03:28:43] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> u over here[m
-
-[03:28:46] [Server thread/INFO]: kylecrane issued server command: /difficulty 0
-[03:28:46] [Server thread/INFO]: [kylecrane: Set game difficulty to Peaceful]
-[03:28:53] [Server thread/INFO]: kylecrane issued server command: /gamemode 0
-[03:28:53] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:28:54] [Server thread/INFO]: CHUCKULETTTTTT__ has just earned the achievement [Taking Inventory]
-[03:29:01] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[03:29:01] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:29:33] [Async Chat Thread - #0/INFO]: <CHUCKULETTTTTT__> 3 2 1 go[m
-
-[03:29:33] [Server thread/INFO]: kylecrane issued server command: /gamemode 0
-[03:29:33] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:32:30] [Server thread/INFO]: kylecrane issued server command: /difficulty 3
-[03:32:30] [Server thread/INFO]: [kylecrane: Set game difficulty to Hard]
-[03:32:52] [Server thread/INFO]: CHUCKULETTTTTT__ fell from a high place
-[03:32:57] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> yoo[m
-
-[03:33:01] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> wait[m
-
-[03:33:06] [Async Chat Thread - #1/INFO]: <kylecrane> damn[m
-
-[03:33:12] [Async Chat Thread - #1/INFO]: <kylecrane> thats crazy[m
-
-[03:33:13] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> it was a humungas cave[m
-
-[03:33:18] [Server thread/INFO]: CHUCKULETTTTTT__ issued server command: /tpa kylecrane
-[03:33:21] [Server thread/INFO]: kylecrane issued server command: /tpaccept
-[03:33:27] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[03:33:27] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:33:41] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> lets do a survial seriese[m
-
-[03:33:42] [Server thread/INFO]: kylecrane issued server command: /gamemode Chuckuletttttt__ 1
-[03:33:42] [Server thread/INFO]: [kylecrane: 'Chuckuletttttt__' is not a valid number]
-[03:34:05] [Server thread/INFO]: CHUCKULETTTTTT__ was blown up by Creeper
-[03:34:11] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> tp me[m
-
-[03:34:22] [Server thread/INFO]: kylecrane issued server command: /op Chuckuletttttt__
-[03:34:22] [Server thread/INFO]: [kylecrane: Opped Chuckuletttttt__]
-[03:34:33] [Server thread/INFO]: kylecrane issued server command: /tp Chuckuletttttt__
-[03:34:33] [Server thread/INFO]: [kylecrane: Teleported kylecrane to CHUCKULETTTTTT__]
-[03:34:36] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> regular survival serise[m
-
-[03:34:49] [Async Chat Thread - #1/INFO]: <kylecrane> no challenges?[m
-
-[03:34:49] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> diamond armor cheating[m
-
-[03:34:57] [Async Chat Thread - #1/INFO]: <kylecrane> we can[m
-
-[03:35:00] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> no cheats[m
-
-[03:35:11] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> we do a survival world[m
-
-[03:35:17] [Server thread/INFO]: kylecrane issued server command: /deop Chuckuletttttt__
-[03:35:17] [Server thread/INFO]: [kylecrane: De-opped Chuckuletttttt__]
-[03:35:38] [Server thread/INFO]: CHUCKULETTTTTT__ issued server command: /gamemode c
-[03:35:50] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> i need admin[m
-
-[03:35:53] [Server thread/INFO]: kylecrane issued server command: /clear Chuckuletttttt__
-[03:35:53] [Server thread/INFO]: [kylecrane: Cleared the inventory of CHUCKULETTTTTT__, removing 29 items]
-[03:35:58] [Async Chat Thread - #1/INFO]: <kylecrane> okay[m
-
-[03:36:03] [Server thread/INFO]: kylecrane issued server command: /clear
-[03:36:03] [Server thread/INFO]: [kylecrane: Cleared the inventory of kylecrane, removing 60 items]
-[03:36:06] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> command block[m
-
-[03:36:23] [Server thread/INFO]: kylecrane issued server command: /clear
-[03:36:23] [Server thread/INFO]: [kylecrane: Cleared the inventory of kylecrane, removing 1 items]
-[03:36:25] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> rugular[m
-
-[03:36:30] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> this is spawn[m
-
-[03:36:32] [Server thread/INFO]: kylecrane issued server command: /gamemode 0
-[03:36:32] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:36:35] [Async Chat Thread - #1/INFO]: <kylecrane> okay[m
-
-[03:36:44] [Server thread/INFO]: kylecrane issued server command: /difficulty 1
-[03:36:44] [Server thread/INFO]: [kylecrane: Set game difficulty to Easy]
-[03:36:58] [Async Chat Thread - #1/INFO]: <CHUCKULETTTTTT__> we need to start making basic tools[m
-
-[03:37:04] [Server thread/INFO]: kylecrane has just earned the achievement [Getting Wood]
-[03:37:10] [Server thread/INFO]: CHUCKULETTTTTT__ has just earned the achievement [Getting Wood]
-[03:37:16] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:37:29] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:37:43] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:37:58] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:38:00] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> woahs[m
-
-[03:38:07] [Server thread/INFO]: kylecrane issued server command: /kill @e
-[03:38:07] [Server thread/INFO]: kylecrane fell out of the world
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed kylecrane]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed item.item.seeds]
-[03:38:07] [Server thread/INFO]: CHUCKULETTTTTT__ fell out of the world
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed CHUCKULETTTTTT__]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed item.item.seeds]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:38:07] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:38:12] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> bro[m
-
-[03:38:21] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> i saw something[m
-
-[03:38:21] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:38:29] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> look[m
-
-[03:38:34] [Async Chat Thread - #2/INFO]: <kylecrane> sorry wrong command[m
-
-[03:38:47] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> it was standing there with glowing eyes[m
-
-[03:39:05] [Async Chat Thread - #2/INFO]: <kylecrane> thats just the mod i installed[m
-
-[03:39:12] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> oh[m
-
-[03:39:17] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> im happy[m
-
-[03:39:21] [Async Chat Thread - #2/INFO]: <kylecrane> he shouldn't be here till like day 7[m
-
-[03:39:27] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> imma change skins[m
-
-[03:39:34] [Async Chat Thread - #2/INFO]: <CHUCKULETTTTTT__> imma send u a skin too[m
-
-[03:39:48] [Async Chat Thread - #2/INFO]: <kylecrane> okay[m
-
-[03:39:52] [Server thread/INFO]: CHUCKULETTTTTT__ lost connection: Disconnected
-[03:39:52] [Server thread/INFO]: CHUCKULETTTTTT__ left the game.
-[03:40:12] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:41:02] [Thread-12/INFO]: UUID of player CHUCKULETTTTTT__ is 47b3ed06-6722-3069-8f16-3e469a6f5cf3
-[03:41:02] [Server thread/INFO]: CHUCKULETTTTTT__[/[0:0:0:0:0:0:0:1]:59664] logged in with entity id 29874 at ([world]22.12900884407494, 66.0, 269.2166309033994)
-[03:41:24] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> wtf[m
-
-[03:41:44] [Server thread/INFO]: CHUCKULETTTTTT__ issued server command: /tpa kylecrane
-[03:41:47] [Server thread/INFO]: kylecrane issued server command: /tpdeny
-[03:41:48] [Async Chat Thread - #3/INFO]: <kylecrane> what\[m
-
-[03:41:57] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> why their mobs'[m
-
-[03:42:06] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:42:10] [Async Chat Thread - #3/INFO]: <kylecrane> nope[m
-
-[03:42:16] [Async Chat Thread - #3/INFO]: <kylecrane> no there arent[m
-
-[03:42:21] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> stop playing[m
-
-[03:42:37] [Async Chat Thread - #3/INFO]: <kylecrane> is just /butcher[m
-
-[03:42:42] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:42:45] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> lets do a regular minecraft server[m
-
-[03:42:51] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> w[m
-
-[03:43:06] [Server thread/INFO]: kylecrane issued server command: /tp Chuckuletttttt__
-[03:43:06] [Server thread/INFO]: [kylecrane: Teleported kylecrane to CHUCKULETTTTTT__]
-[03:43:32] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> regular[m
-
-[03:43:37] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> u promise[m
-
-[03:43:38] [Async Chat Thread - #3/INFO]: <kylecrane> okay[m
-
-[03:43:58] [Server thread/INFO]: kylecrane issued server command: /give @s 100000 cooked_beef
-[03:43:58] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:00] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> clear rein[m
-
-[03:44:14] [Async Chat Thread - #3/INFO]: <CHUCKULETTTTTT__> im low we need tools[m
-
-[03:44:15] [Server thread/INFO]: kylecrane issued server command: /weather clear
-[03:44:15] [Server thread/INFO]: [kylecrane: Changing to clear weather]
-[03:44:42] [Server thread/INFO]: kylecrane issued server command: /give @e 100000 beef
-[03:44:42] [Server thread/INFO]: [kylecrane: There is no such item with name minecraft:100000]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: There is no such item with name minecraft:100000]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:44:42] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:45:13] [Server thread/INFO]: CHUCKULETTTTTT__ has just earned the achievement [Benchmarking]
-[03:45:37] [Server thread/INFO]: CHUCKULETTTTTT__ has just earned the achievement [Time to Mine!]
-[03:45:43] [Server thread/INFO]: kylecrane issued server command: /gamerule mobGriefing false
-[03:45:43] [Server thread/INFO]: [kylecrane: Game rule has been updated]
-[03:46:05] [Server thread/INFO]: kylecrane issued server command: /gamemode 2
-[03:46:05] [Server thread/INFO]: [kylecrane: Set own game mode to Adventure Mode]
-[03:46:08] [Server thread/INFO]: kylecrane issued server command: /gamemode 3
-[03:46:08] [Server thread/INFO]: [kylecrane: Set own game mode to Spectator Mode]
-[03:46:43] [Async Chat Thread - #4/INFO]: <kylecrane> ill brb[m
-
-[03:46:48] [Async Chat Thread - #4/INFO]: <CHUCKULETTTTTT__> kk[m
-
-[03:46:49] [Async Chat Thread - #4/INFO]: <kylecrane> don't look[m
-
-[03:46:56] [Async Chat Thread - #4/INFO]: <CHUCKULETTTTTT__> i need food[m
-
-[03:47:02] [Async Chat Thread - #4/INFO]: <kylecrane> k[m
-
-[03:47:13] [Server thread/INFO]: CHUCKULETTTTTT__ has just earned the achievement [Getting an Upgrade]
-[03:47:41] [Server thread/INFO]: kylecrane issued server command: /give @p minecraft:cooked_beef
-[03:47:41] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to kylecrane]
-[03:48:12] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 100000
-[03:48:12] [Server thread/INFO]: [kylecrane: The number you have entered (100000) is too big, it must be at most 64]
-[03:48:35] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef
-[03:48:35] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to CHUCKULETTTTTT__]
-[03:48:41] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef
-[03:48:41] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to CHUCKULETTTTTT__]
-[03:48:42] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef
-[03:48:42] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to CHUCKULETTTTTT__]
-[03:48:43] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef
-[03:48:43] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to CHUCKULETTTTTT__]
-[03:48:45] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef
-[03:48:45] [Server thread/INFO]: [kylecrane: Given [Steak] * 1 to CHUCKULETTTTTT__]
-[03:49:04] [Async Chat Thread - #5/INFO]: <CHUCKULETTTTTT__> thank u lord of the sky[m
-
-[03:49:12] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 10
-[03:49:12] [Server thread/INFO]: [kylecrane: Given [Steak] * 10 to CHUCKULETTTTTT__]
-[03:49:17] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 10000
-[03:49:17] [Server thread/INFO]: [kylecrane: The number you have entered (10000) is too big, it must be at most 64]
-[03:49:20] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 1000
-[03:49:20] [Server thread/INFO]: [kylecrane: The number you have entered (1000) is too big, it must be at most 64]
-[03:49:27] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 100
-[03:49:27] [Server thread/INFO]: [kylecrane: The number you have entered (100) is too big, it must be at most 64]
-[03:49:30] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 100
-[03:49:30] [Server thread/INFO]: [kylecrane: The number you have entered (100) is too big, it must be at most 64]
-[03:49:31] [Async Chat Thread - #5/INFO]: <CHUCKULETTTTTT__> r'e[m
-
-[03:49:35] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 10
-[03:49:35] [Server thread/INFO]: [kylecrane: Given [Steak] * 10 to CHUCKULETTTTTT__]
-[03:49:40] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 64
-[03:49:40] [Server thread/INFO]: [kylecrane: Given [Steak] * 64 to CHUCKULETTTTTT__]
-[03:49:42] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 64
-[03:49:42] [Server thread/INFO]: [kylecrane: Given [Steak] * 64 to CHUCKULETTTTTT__]
-[03:49:43] [Server thread/INFO]: kylecrane issued server command: /give chuckuletttttt__ minecraft:cooked_beef 64
-[03:49:43] [Server thread/INFO]: [kylecrane: Given [Steak] * 64 to CHUCKULETTTTTT__]
-[03:49:56] [Server thread/INFO]: kylecrane issued server command: /give @s minecraft:cooked_beef 64
-[03:49:56] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:50:50] [Server thread/INFO]: kylecrane issued server command: /gamemode @s survival
-[03:50:50] [Server thread/INFO]: [kylecrane: '@s' is not a valid number]
-[03:50:58] [Server thread/INFO]: kylecrane issued server command: /gamemode 0
-[03:50:58] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:51:09] [Server thread/INFO]: kylecrane issued server command: /give @s minecraft:cooked_beef 64
-[03:51:09] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:51:14] [Async Chat Thread - #6/INFO]: <CHUCKULETTTTTT__> tf[m
-
-[03:51:19] [Server thread/INFO]: kylecrane issued server command: /give kylecrane minecraft:cooked_beef 64
-[03:51:19] [Server thread/INFO]: [kylecrane: Given [Steak] * 64 to kylecrane]
-[03:51:28] [Server thread/INFO]: kylecrane issued server command: /toggledownfall
-[03:51:28] [Server thread/INFO]: [kylecrane: Toggled downfall]
-[03:51:33] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:51:33] [Server thread/INFO]: kylecrane left the game.
-[03:51:40] [Thread-13/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:51:40] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:48766] logged in with entity id 32556 at ([world]23.160803136485473, 64.0, 281.23859224603837)
-[03:52:07] [Async Chat Thread - #6/INFO]: <kylecrane> brb[m
-
-[03:52:13] [Async Chat Thread - #6/INFO]: <CHUCKULETTTTTT__> ok[m
-
-[03:52:16] [Async Chat Thread - #6/INFO]: <kylecrane> got to restart my game[m
-
-[03:52:18] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:52:18] [Server thread/INFO]: kylecrane left the game.
-[03:54:29] [Thread-15/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:54:29] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47892] logged in with entity id 32807 at ([world]23.969947867902583, 64.0, 277.58536774765724)
-[03:55:29] [Server thread/INFO]: kylecrane issued server command: /gamemode 2
-[03:55:29] [Server thread/INFO]: [kylecrane: Set own game mode to Adventure Mode]
-[03:55:35] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[03:55:35] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:56:50] [Server thread/INFO]: kylecrane issued server command: /difficulty hard
-[03:56:50] [Server thread/INFO]: [kylecrane: Set game difficulty to Hard]
-[03:57:29] [Async Chat Thread - #7/INFO]: <CHUCKULETTTTTT__> brb[m
-
-[03:57:37] [Async Chat Thread - #7/INFO]: <kylecrane> k[m
-
-[03:57:43] [Server thread/INFO]: CHUCKULETTTTTT__ lost connection: Disconnected
-[03:57:43] [Server thread/INFO]: CHUCKULETTTTTT__ left the game.
-[03:58:20] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:58:24] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:58:30] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:58:30] [Server thread/INFO]: kylecrane left the game.
-[03:58:59] [Thread-16/INFO]: UUID of player CHUCKULETTTTTT__ is 47b3ed06-6722-3069-8f16-3e469a6f5cf3
-[03:58:59] [Server thread/INFO]: CHUCKULETTTTTT__[/[0:0:0:0:0:0:0:1]:49128] logged in with entity id 33943 at ([world]8.352048576783307, 64.0, 286.43179521850345)
-[04:00:23] [Server thread/INFO]: CHUCKULETTTTTT__ lost connection: Disconnected
-[04:00:23] [Server thread/INFO]: CHUCKULETTTTTT__ left the game.
-[04:19:37] [Thread-17/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[04:19:37] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:55084] logged in with entity id 34080 at ([world]-186.6801194040515, 116.24360515239242, 536.0777648841628)
-[04:20:40] [Server thread/INFO]: kylecrane issued server command: /kill @e
-[04:20:40] [Server thread/INFO]: kylecrane fell out of the world
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed kylecrane]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Spider]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Rabbit]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Minecart]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Enderman]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed item.item.egg]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Experience Orb]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Pig]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[04:20:40] [Server thread/INFO]: [kylecrane: Killed Cow]
-[04:20:57] [Server thread/INFO]: kylecrane issued server command: /butcher
-[04:27:35] [Server thread/INFO]: kylecrane issued server command: /butcher
-[04:34:51] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[04:34:51] [Server thread/INFO]: kylecrane left the game.
-[04:35:17] [Thread-19/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[04:35:17] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:55166] logged in with entity id 36470 at ([world]38.081452149126214, 13.0, 307.4970551563342)
-[04:35:47] [Server thread/INFO]: kylecrane lost connection: Login timed out!
-[04:35:47] [Server thread/INFO]: kylecrane left the game.
-[04:35:47] [Server thread/WARN]: handleDisconnection() called twice
-[04:36:57] [Thread-20/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[04:36:57] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:49888] logged in with entity id 36498 at ([world]38.081452149126214, 13.0, 307.4970551563342)
-[04:37:13] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl100}]}
-[04:37:13] [Server thread/INFO]: [kylecrane: Data tag parsing failed: Unable to locate name/value separator for string: lvl100]
-[04:37:21] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl100}]}
-[04:37:21] [Server thread/INFO]: [kylecrane: Data tag parsing failed: Unable to locate name/value separator for string: lvl100]
-[04:41:42] [Server thread/INFO]: kylecrane issued server command: /butcher
-[04:42:33] [Server thread/INFO]: kylecrane issued server command: /gamemode 3
-[04:42:33] [Server thread/INFO]: [kylecrane: Set own game mode to Spectator Mode]
-[04:43:49] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[04:43:49] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[04:43:53] [Server thread/INFO]: kylecrane issued server command: /gamemode 3
-[04:43:53] [Server thread/INFO]: [kylecrane: Set own game mode to Spectator Mode]
-[04:44:12] [Server thread/INFO]: kylecrane issued server command: /butcher
-[04:44:57] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
-[04:44:57] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[04:53:06] [Server thread/INFO]: kylecrane issued server command: /difficulty 1
-[04:53:06] [Server thread/INFO]: [kylecrane: Set game difficulty to Easy]
-[04:56:03] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[04:56:03] [Server thread/INFO]: kylecrane left the game.
-[04:56:57] [Thread-22/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[04:56:57] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47200] logged in with entity id 39860 at ([world]18.07717643349447, 71.0, 281.00325765698403)
-[05:03:11] [Server thread/INFO]: kylecrane lost connection: Timed out
-[05:03:11] [Server thread/INFO]: kylecrane left the game.
-[05:05:31] [Thread-23/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[05:05:31] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:34434] logged in with entity id 40073 at ([world]-21.009911764350697, 66.0, 278.6338241245418)
-[05:07:47] [Server thread/INFO]: kylecrane issued server command: /stop
-[05:07:47] [Server thread/INFO]: [kylecrane: Stopping the server]
-[05:07:47] [Server thread/INFO]: Stopping server
-[05:07:47] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[05:07:47] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[05:07:47] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[05:07:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[05:07:47] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[05:07:47] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[05:07:47] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
-
-[05:07:47] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
-
-[05:07:47] [Server thread/INFO]: Saving players
-[05:07:47] [Server thread/INFO]: kylecrane lost connection: Server closed
-[05:07:47] [Server thread/INFO]: kylecrane left the game.
-[05:07:47] [Server thread/INFO]: Saving worlds
-[05:07:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[05:07:47] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[05:07:47] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[18:27:28] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[18:27:28] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[18:27:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[18:27:28] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[18:27:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:27:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:27:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[18:27:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[18:27:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:27:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[18:27:28] [Server thread/INFO]: Preparing level "world"
+[18:27:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:27:28] [Server thread/INFO]: Mob Spawn Range: 4
+[18:27:28] [Server thread/INFO]: Anti X-Ray: true
+[18:27:28] [Server thread/INFO]: 	Engine Mode: 1
+[18:27:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:27:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:27:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:27:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:27:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:27:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:27:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:27:28] [Server thread/INFO]: Random Lighting Updates: false
+[18:27:28] [Server thread/INFO]: Structure Info Saving: true
+[18:27:28] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:27:28] [Server thread/INFO]: Max Entity Collisions: 8
+[18:27:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:27:28] [Server thread/INFO]: Max TNT Explosions: 100
+[18:27:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:27:28] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:27:28] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:27:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:27:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:27:28] [Server thread/INFO]: View Distance: 4
+[18:27:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:27:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:27:28] [Server thread/INFO]: Clear tick list: false
+[18:27:28] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:27:28] [Server thread/INFO]: -------- World Settings For [world] --------
+[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
+[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
+[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:27:29] [Server thread/INFO]: World async lighting: false
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:27:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:27:29] [Server thread/INFO]: Mob Spawn Range: 4
+[18:27:29] [Server thread/INFO]: Anti X-Ray: true
+[18:27:29] [Server thread/INFO]: 	Engine Mode: 1
+[18:27:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:27:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:27:29] [Server thread/INFO]: Random Lighting Updates: false
+[18:27:29] [Server thread/INFO]: Structure Info Saving: true
+[18:27:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:27:29] [Server thread/INFO]: Max Entity Collisions: 8
+[18:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:27:29] [Server thread/INFO]: Max TNT Explosions: 100
+[18:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:27:29] [Server thread/INFO]: View Distance: 4
+[18:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:27:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:27:29] [Server thread/INFO]: Clear tick list: false
+[18:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:27:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
+[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
+[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:27:29] [Server thread/INFO]: World async lighting: false
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:27:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:27:29] [Server thread/INFO]: Mob Spawn Range: 4
+[18:27:29] [Server thread/INFO]: Anti X-Ray: true
+[18:27:29] [Server thread/INFO]: 	Engine Mode: 1
+[18:27:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[18:27:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[18:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[18:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[18:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[18:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[18:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[18:27:29] [Server thread/INFO]: Random Lighting Updates: false
+[18:27:29] [Server thread/INFO]: Structure Info Saving: true
+[18:27:29] [Server thread/INFO]: Sending up to 10 chunks per packet
+[18:27:29] [Server thread/INFO]: Max Entity Collisions: 8
+[18:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[18:27:29] [Server thread/INFO]: Max TNT Explosions: 100
+[18:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[18:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
+[18:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
+[18:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[18:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[18:27:29] [Server thread/INFO]: View Distance: 4
+[18:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[18:27:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[18:27:29] [Server thread/INFO]: Clear tick list: false
+[18:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
+[18:27:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
+[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
+[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
+[18:27:29] [Server thread/INFO]: World async lighting: false
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[18:27:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
+[18:27:30] [Server thread/INFO]: Preparing spawn area: 0%
+[18:27:31] [Server thread/INFO]: Preparing spawn area: 2%
+[18:27:32] [Server thread/INFO]: Preparing spawn area: 4%
+[18:27:33] [Server thread/INFO]: Preparing spawn area: 8%
+[18:27:34] [Server thread/INFO]: Preparing spawn area: 16%
+[18:27:35] [Server thread/INFO]: Preparing spawn area: 18%
+[18:27:37] [Server thread/INFO]: Preparing spawn area: 23%
+[18:27:38] [Server thread/INFO]: Preparing spawn area: 43%
+[18:27:39] [Server thread/INFO]: Preparing spawn area: 44%
+[18:27:40] [Server thread/INFO]: Preparing spawn area: 59%
+[18:27:41] [Server thread/INFO]: Preparing spawn area: 84%
+[18:27:42] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
+[18:27:43] [Server thread/INFO]: Preparing spawn area: 14%
+[18:27:44] [Server thread/INFO]: Preparing spawn area: 35%
+[18:27:45] [Server thread/INFO]: Preparing spawn area: 59%
+[18:27:46] [Server thread/INFO]: Preparing spawn area: 78%
+[18:27:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
+[18:27:48] [Server thread/INFO]: Preparing spawn area: 28%
+[18:27:49] [Server thread/INFO]: Preparing spawn area: 59%
+[18:27:49] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[18:27:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[18:27:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+
+[18:27:50] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[18:27:50] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[18:27:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[18:27:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[18:27:50] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[18:27:50] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[18:27:51] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[18:27:51] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[18:27:51] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[18:27:51] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[18:27:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:27:51] [Server thread/INFO]: Done (23.077s)! For help, type "help" or "?"
+[18:27:51] [Server thread/INFO]: Timings Reset
+[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
+[18:29:37] [Thread-7/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[18:29:37] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:44680] logged in with entity id 332 at ([world]19.126086474013476, 64.0, 283.43979579794285)
+[18:38:40] [Server thread/INFO]: kylecrane issued server command: /BUTCHER
+[18:40:28] [Server thread/INFO]: kylecrane issued server command: /SET TIME DAY
+[18:40:33] [Server thread/INFO]: kylecrane issued server command: /settime day
+[18:40:39] [Server thread/INFO]: kylecrane issued server command: /time day
+[18:45:09] [Server thread/INFO]: kylecrane lost connection: Disconnected
+[18:45:09] [Server thread/INFO]: kylecrane left the game.
