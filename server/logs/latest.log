@@ -990,3 +990,25 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 [04:56:57] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47200] logged in with entity id 39860 at ([world]18.07717643349447, 71.0, 281.00325765698403)
 [05:03:11] [Server thread/INFO]: kylecrane lost connection: Timed out
 [05:03:11] [Server thread/INFO]: kylecrane left the game.
+[05:05:31] [Thread-23/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[05:05:31] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:34434] logged in with entity id 40073 at ([world]-21.009911764350697, 66.0, 278.6338241245418)
+[05:07:47] [Server thread/INFO]: kylecrane issued server command: /stop
+[05:07:47] [Server thread/INFO]: [kylecrane: Stopping the server]
+[05:07:47] [Server thread/INFO]: Stopping server
+[05:07:47] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[05:07:47] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[05:07:47] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[05:07:47] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[05:07:47] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[05:07:47] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[05:07:47] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[05:07:47] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[05:07:47] [Server thread/INFO]: Saving players
+[05:07:47] [Server thread/INFO]: kylecrane lost connection: Server closed
+[05:07:47] [Server thread/INFO]: kylecrane left the game.
+[05:07:47] [Server thread/INFO]: Saving worlds
+[05:07:47] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[05:07:47] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[05:07:47] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End

@@ -145,3 +145,11 @@
 [05:03:10] [Netty Worker IO Thread #1/INFO]: [kylecrane] disconnected with: Proxy lost connection to server.
 [05:03:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38116|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
 [05:03:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38116|kylecrane] -> UpstreamBridge has disconnected
+[05:05:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35756]: Connected via websocket
+[05:05:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35756]: Origin header is https://eaglercraft.com
+[05:05:31] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:35756]: Logged in as 'kylecrane'
+[05:05:31] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35756|kylecrane] -> UpstreamBridge has connected
+[05:05:31] [Netty Worker IO Thread #3/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:35756] <-> ServerConnector [lobby] has connected
+[05:07:47] [Netty Worker IO Thread #3/INFO]: [kylecrane] disconnected with: Server closed
+[05:07:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35756|kylecrane] -> UpstreamBridge has disconnected
+[05:07:47] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:35756|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
