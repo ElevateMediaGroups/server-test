@@ -129,3 +129,19 @@
 [04:35:47] [Netty Worker IO Thread #2/INFO]: [kylecrane] disconnected with: Login timed out!
 [04:35:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40064|kylecrane] -> UpstreamBridge has disconnected
 [04:35:47] [Netty Worker IO Thread #2/INFO]: [/[0:0:0:0:0:0:0:1%0]:40064|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:36:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48774]: Connected via websocket
+[04:36:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48774]: Origin header is https://eaglercraft.com
+[04:36:57] [Netty Worker IO Thread #3/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:48774]: Logged in as 'kylecrane'
+[04:36:57] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48774|kylecrane] -> UpstreamBridge has connected
+[04:36:57] [Netty Worker IO Thread #3/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:48774] <-> ServerConnector [lobby] has connected
+[04:56:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48774|kylecrane] -> UpstreamBridge has disconnected
+[04:56:03] [Netty Worker IO Thread #3/INFO]: [kylecrane] disconnected with: Proxy lost connection to server.
+[04:56:03] [Netty Worker IO Thread #3/INFO]: [/[0:0:0:0:0:0:0:1%0]:48774|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
+[04:56:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38116]: Connected via websocket
+[04:56:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38116]: Origin header is https://eaglercraft.com
+[04:56:57] [Netty Worker IO Thread #1/INFO] [EaglercraftXBungee]: [/[0:0:0:0:0:0:0:1%0]:38116]: Logged in as 'kylecrane'
+[04:56:57] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38116|kylecrane] -> UpstreamBridge has connected
+[04:56:57] [Netty Worker IO Thread #1/INFO]: [kylecrane|/[0:0:0:0:0:0:0:1%0]:38116] <-> ServerConnector [lobby] has connected
+[05:03:10] [Netty Worker IO Thread #1/INFO]: [kylecrane] disconnected with: Proxy lost connection to server.
+[05:03:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38116|kylecrane] <-> DownstreamBridge <-> [lobby] has disconnected
+[05:03:10] [Netty Worker IO Thread #1/INFO]: [/[0:0:0:0:0:0:0:1%0]:38116|kylecrane] -> UpstreamBridge has disconnected

@@ -966,3 +966,27 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 [04:35:47] [Server thread/INFO]: kylecrane lost connection: Login timed out!
 [04:35:47] [Server thread/INFO]: kylecrane left the game.
 [04:35:47] [Server thread/WARN]: handleDisconnection() called twice
+[04:36:57] [Thread-20/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[04:36:57] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:49888] logged in with entity id 36498 at ([world]38.081452149126214, 13.0, 307.4970551563342)
+[04:37:13] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl100}]}
+[04:37:13] [Server thread/INFO]: [kylecrane: Data tag parsing failed: Unable to locate name/value separator for string: lvl100]
+[04:37:21] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl100}]}
+[04:37:21] [Server thread/INFO]: [kylecrane: Data tag parsing failed: Unable to locate name/value separator for string: lvl100]
+[04:41:42] [Server thread/INFO]: kylecrane issued server command: /butcher
+[04:42:33] [Server thread/INFO]: kylecrane issued server command: /gamemode 3
+[04:42:33] [Server thread/INFO]: [kylecrane: Set own game mode to Spectator Mode]
+[04:43:49] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
+[04:43:49] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
+[04:43:53] [Server thread/INFO]: kylecrane issued server command: /gamemode 3
+[04:43:53] [Server thread/INFO]: [kylecrane: Set own game mode to Spectator Mode]
+[04:44:12] [Server thread/INFO]: kylecrane issued server command: /butcher
+[04:44:57] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
+[04:44:57] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
+[04:53:06] [Server thread/INFO]: kylecrane issued server command: /difficulty 1
+[04:53:06] [Server thread/INFO]: [kylecrane: Set game difficulty to Easy]
+[04:56:03] [Server thread/INFO]: kylecrane lost connection: Disconnected
+[04:56:03] [Server thread/INFO]: kylecrane left the game.
+[04:56:57] [Thread-22/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[04:56:57] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47200] logged in with entity id 39860 at ([world]18.07717643349447, 71.0, 281.00325765698403)
+[05:03:11] [Server thread/INFO]: kylecrane lost connection: Timed out
+[05:03:11] [Server thread/INFO]: kylecrane left the game.
