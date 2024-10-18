@@ -1,38 +1,38 @@
-[18:27:20] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[18:27:20] [Server thread/INFO]: Loading properties
-[18:27:21] [Server thread/INFO]: Default game type: SURVIVAL
-[18:27:22] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[18:27:23] [Server thread/INFO]: Debug logging is disabled
-[18:27:23] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[18:27:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[08:39:07] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[08:39:07] [Server thread/INFO]: Loading properties
+[08:39:07] [Server thread/INFO]: Default game type: SURVIVAL
+[08:39:08] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[08:39:08] [Server thread/INFO]: Debug logging is disabled
+[08:39:08] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[08:39:08] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[18:27:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:27:23] [Server thread/INFO]: Data value allowed items: 
-[18:27:23] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[08:39:08] [Server thread/INFO]: Using 4 threads for Netty based IO
+[08:39:08] [Server thread/INFO]: Data value allowed items: 
+[08:39:08] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[08:39:08] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[08:39:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[18:27:23] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[08:39:08] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[08:39:08] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[08:39:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[18:27:23] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[08:39:08] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[18:27:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[08:39:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[18:27:23] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[08:39:08] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[18:27:23] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[08:39:08] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[18:27:23] [Server thread/INFO]: Generating keypair
-[18:27:24] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[18:27:25] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[18:27:25] [Server thread/INFO]: Using default channel type
-[18:27:26] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
+[08:39:09] [Server thread/INFO]: Generating keypair
+[08:39:09] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[08:39:09] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[08:39:09] [Server thread/INFO]: Using default channel type
+[08:39:10] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,7 +42,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[18:27:26] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
+[08:39:10] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -52,7 +52,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[18:27:27] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
+[08:39:10] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -62,7 +62,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[18:27:27] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
+[08:39:10] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -72,8 +72,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[18:27:27] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[18:27:27] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
+[08:39:10] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[08:39:10] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -125,207 +125,241 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[18:27:28] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[18:27:28] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[18:27:28] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[18:27:28] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[18:27:28] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:27:28] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:27:28] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:27:28] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[18:27:28] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:27:28] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[18:27:28] [Server thread/INFO]: Preparing level "world"
-[18:27:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:27:28] [Server thread/INFO]: Mob Spawn Range: 4
-[18:27:28] [Server thread/INFO]: Anti X-Ray: true
-[18:27:28] [Server thread/INFO]: 	Engine Mode: 1
-[18:27:28] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:27:28] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:27:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:27:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:27:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:27:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:27:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:27:28] [Server thread/INFO]: Random Lighting Updates: false
-[18:27:28] [Server thread/INFO]: Structure Info Saving: true
-[18:27:28] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:27:28] [Server thread/INFO]: Max Entity Collisions: 8
-[18:27:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:27:28] [Server thread/INFO]: Max TNT Explosions: 100
-[18:27:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:27:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:27:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:27:28] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:27:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:27:28] [Server thread/INFO]: View Distance: 4
-[18:27:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:27:28] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:27:28] [Server thread/INFO]: Clear tick list: false
-[18:27:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:27:28] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
-[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
-[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:27:29] [Server thread/INFO]: World async lighting: false
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:27:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:27:29] [Server thread/INFO]: Mob Spawn Range: 4
-[18:27:29] [Server thread/INFO]: Anti X-Ray: true
-[18:27:29] [Server thread/INFO]: 	Engine Mode: 1
-[18:27:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:27:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:27:29] [Server thread/INFO]: Random Lighting Updates: false
-[18:27:29] [Server thread/INFO]: Structure Info Saving: true
-[18:27:29] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:27:29] [Server thread/INFO]: Max Entity Collisions: 8
-[18:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:27:29] [Server thread/INFO]: Max TNT Explosions: 100
-[18:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:27:29] [Server thread/INFO]: View Distance: 4
-[18:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:27:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:27:29] [Server thread/INFO]: Clear tick list: false
-[18:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:27:29] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
-[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
-[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:27:29] [Server thread/INFO]: World async lighting: false
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:27:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:27:29] [Server thread/INFO]: Mob Spawn Range: 4
-[18:27:29] [Server thread/INFO]: Anti X-Ray: true
-[18:27:29] [Server thread/INFO]: 	Engine Mode: 1
-[18:27:29] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[18:27:29] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[18:27:29] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:27:29] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:27:29] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[18:27:29] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:27:29] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[18:27:29] [Server thread/INFO]: Random Lighting Updates: false
-[18:27:29] [Server thread/INFO]: Structure Info Saving: true
-[18:27:29] [Server thread/INFO]: Sending up to 10 chunks per packet
-[18:27:29] [Server thread/INFO]: Max Entity Collisions: 8
-[18:27:29] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[18:27:29] [Server thread/INFO]: Max TNT Explosions: 100
-[18:27:29] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:27:29] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:27:29] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:27:29] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[18:27:29] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:27:29] [Server thread/INFO]: View Distance: 4
-[18:27:29] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:27:29] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[18:27:29] [Server thread/INFO]: Clear tick list: false
-[18:27:29] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:27:29] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:27:29] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[18:27:29] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[18:27:29] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[18:27:29] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[18:27:29] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[18:27:29] [Server thread/INFO]: Water over lava flow speed: 5
-[18:27:29] [Server thread/INFO]: Fix TNT cannons: false
-[18:27:29] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[18:27:29] [Server thread/INFO]: Keep spawn chunk loaded: true
-[18:27:29] [Server thread/INFO]: World async lighting: false
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[18:27:29] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[18:27:29] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
-[18:27:30] [Server thread/INFO]: Preparing spawn area: 0%
-[18:27:31] [Server thread/INFO]: Preparing spawn area: 2%
-[18:27:32] [Server thread/INFO]: Preparing spawn area: 4%
-[18:27:33] [Server thread/INFO]: Preparing spawn area: 8%
-[18:27:34] [Server thread/INFO]: Preparing spawn area: 16%
-[18:27:35] [Server thread/INFO]: Preparing spawn area: 18%
-[18:27:37] [Server thread/INFO]: Preparing spawn area: 23%
-[18:27:38] [Server thread/INFO]: Preparing spawn area: 43%
-[18:27:39] [Server thread/INFO]: Preparing spawn area: 44%
-[18:27:40] [Server thread/INFO]: Preparing spawn area: 59%
-[18:27:41] [Server thread/INFO]: Preparing spawn area: 84%
-[18:27:42] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
-[18:27:43] [Server thread/INFO]: Preparing spawn area: 14%
-[18:27:44] [Server thread/INFO]: Preparing spawn area: 35%
-[18:27:45] [Server thread/INFO]: Preparing spawn area: 59%
-[18:27:46] [Server thread/INFO]: Preparing spawn area: 78%
-[18:27:47] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
-[18:27:48] [Server thread/INFO]: Preparing spawn area: 28%
-[18:27:49] [Server thread/INFO]: Preparing spawn area: 59%
-[18:27:49] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[18:27:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[08:39:10] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[08:39:10] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[08:39:10] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[08:39:10] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[08:39:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[08:39:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[08:39:10] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[08:39:10] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[08:39:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[08:39:10] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[08:39:10] [Server thread/INFO]: Preparing level "world"
+[08:39:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:39:10] [Server thread/INFO]: Mob Spawn Range: 4
+[08:39:10] [Server thread/INFO]: Anti X-Ray: true
+[08:39:10] [Server thread/INFO]: 	Engine Mode: 1
+[08:39:10] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:39:10] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:39:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:39:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:39:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:39:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:39:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:39:10] [Server thread/INFO]: Random Lighting Updates: false
+[08:39:10] [Server thread/INFO]: Structure Info Saving: true
+[08:39:10] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:39:10] [Server thread/INFO]: Max Entity Collisions: 8
+[08:39:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:39:10] [Server thread/INFO]: Max TNT Explosions: 100
+[08:39:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:39:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:39:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:39:10] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:39:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:39:10] [Server thread/INFO]: View Distance: 4
+[08:39:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:39:10] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:39:10] [Server thread/INFO]: Clear tick list: false
+[08:39:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:39:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[08:39:10] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:39:10] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:39:10] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:39:10] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:39:10] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:39:10] [Server thread/INFO]: Water over lava flow speed: 5
+[08:39:10] [Server thread/INFO]: Fix TNT cannons: false
+[08:39:10] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:39:10] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:39:10] [Server thread/INFO]: World async lighting: false
+[08:39:10] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:39:10] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:39:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:39:11] [Server thread/INFO]: Mob Spawn Range: 4
+[08:39:11] [Server thread/INFO]: Anti X-Ray: true
+[08:39:11] [Server thread/INFO]: 	Engine Mode: 1
+[08:39:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:39:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:39:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:39:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:39:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:39:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:39:11] [Server thread/INFO]: Random Lighting Updates: false
+[08:39:11] [Server thread/INFO]: Structure Info Saving: true
+[08:39:11] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:39:11] [Server thread/INFO]: Max Entity Collisions: 8
+[08:39:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:39:11] [Server thread/INFO]: Max TNT Explosions: 100
+[08:39:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:39:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:39:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:39:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:39:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:39:11] [Server thread/INFO]: View Distance: 4
+[08:39:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:39:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:39:11] [Server thread/INFO]: Clear tick list: false
+[08:39:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:39:11] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[08:39:11] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:39:11] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:39:11] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:39:11] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:39:11] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:39:11] [Server thread/INFO]: Water over lava flow speed: 5
+[08:39:11] [Server thread/INFO]: Fix TNT cannons: false
+[08:39:11] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:39:11] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:39:11] [Server thread/INFO]: World async lighting: false
+[08:39:11] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:39:11] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:39:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:39:11] [Server thread/INFO]: Mob Spawn Range: 4
+[08:39:11] [Server thread/INFO]: Anti X-Ray: true
+[08:39:11] [Server thread/INFO]: 	Engine Mode: 1
+[08:39:11] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[08:39:11] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[08:39:11] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[08:39:11] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Cane Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Melon Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[08:39:11] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[08:39:11] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[08:39:11] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[08:39:11] [Server thread/INFO]: Random Lighting Updates: false
+[08:39:11] [Server thread/INFO]: Structure Info Saving: true
+[08:39:11] [Server thread/INFO]: Sending up to 10 chunks per packet
+[08:39:11] [Server thread/INFO]: Max Entity Collisions: 8
+[08:39:11] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[08:39:11] [Server thread/INFO]: Max TNT Explosions: 100
+[08:39:11] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[08:39:11] [Server thread/INFO]: Item Despawn Rate: 6000
+[08:39:11] [Server thread/INFO]: Item Merge Radius: 2.5
+[08:39:11] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[08:39:11] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[08:39:11] [Server thread/INFO]: View Distance: 4
+[08:39:11] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[08:39:11] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[08:39:11] [Server thread/INFO]: Clear tick list: false
+[08:39:11] [Server thread/INFO]: Experience Merge Radius: 3.0
+[08:39:11] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[08:39:11] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[08:39:11] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[08:39:11] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[08:39:11] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[08:39:11] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[08:39:11] [Server thread/INFO]: Water over lava flow speed: 5
+[08:39:11] [Server thread/INFO]: Fix TNT cannons: false
+[08:39:11] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[08:39:11] [Server thread/INFO]: Keep spawn chunk loaded: true
+[08:39:11] [Server thread/INFO]: World async lighting: false
+[08:39:11] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[08:39:11] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[08:39:11] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
+[08:39:12] [Server thread/INFO]: Preparing spawn area: 4%
+[08:39:13] [Server thread/INFO]: Preparing spawn area: 13%
+[08:39:14] [Server thread/INFO]: Preparing spawn area: 31%
+[08:39:15] [Server thread/INFO]: Preparing spawn area: 62%
+[08:39:16] [Server thread/INFO]: Preparing spawn area: 97%
+[08:39:16] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
+[08:39:17] [Server thread/INFO]: Preparing spawn area: 4%
+[08:39:18] [Server thread/INFO]: Preparing spawn area: 7%
+[08:39:19] [Server thread/INFO]: Preparing spawn area: 18%
+[08:39:20] [Server thread/INFO]: Preparing spawn area: 68%
+[08:39:21] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
+[08:39:21] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[08:39:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[18:27:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[08:39:21] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[18:27:50] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[18:27:50] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[18:27:50] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[18:27:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[18:27:50] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[18:27:50] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[18:27:51] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[18:27:51] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[18:27:51] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[18:27:51] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[18:27:51] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:27:51] [Server thread/INFO]: Done (23.077s)! For help, type "help" or "?"
-[18:27:51] [Server thread/INFO]: Timings Reset
-[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[08:39:21] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[08:39:21] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[08:39:21] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[08:39:22] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[08:39:22] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[08:39:22] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[08:39:22] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[08:39:22] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[08:39:22] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[08:39:22] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[08:39:22] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[08:39:22] [Server thread/INFO]: Done (12.363s)! For help, type "help" or "?"
+[08:39:22] [Server thread/INFO]: Timings Reset
+[08:39:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[08:39:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[18:27:53] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[08:39:23] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[18:29:37] [Thread-7/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[18:29:37] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:44680] logged in with entity id 332 at ([world]19.126086474013476, 64.0, 283.43979579794285)
-[18:38:40] [Server thread/INFO]: kylecrane issued server command: /BUTCHER
-[18:40:28] [Server thread/INFO]: kylecrane issued server command: /SET TIME DAY
-[18:40:33] [Server thread/INFO]: kylecrane issued server command: /settime day
-[18:40:39] [Server thread/INFO]: kylecrane issued server command: /time day
-[18:45:09] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[18:45:09] [Server thread/INFO]: kylecrane left the game.
+[08:41:54] [Thread-7/INFO]: UUID of player kylecrane0 is 6d101a31-eea3-3c38-8375-6e9f60d71847
+[08:41:54] [Server thread/INFO]: kylecrane0[/[0:0:0:0:0:0:0:1]:42834] logged in with entity id 380 at ([world]19.921424106410008, 64.0, 283.7610293514173)
+[08:42:43] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[08:42:50] [Server thread/INFO]: Opped kylecrane
+[08:43:06] [Server thread/INFO]: 'kylecrane0' is not a valid number
+[08:43:17] [Server thread/INFO]: That player cannot be found
+[08:43:20] [Server thread/INFO]: Set kylecrane0's game mode to Creative Mode
+[08:44:10] [Server thread/INFO]: kylecrane0 issued server command: /help
+[08:44:22] [Server thread/INFO]: kylecrane0 issued server command: /help bukkit
+[08:44:34] [Server thread/INFO]: kylecrane0 issued server command: /version
+[08:45:28] [Server thread/INFO]: kylecrane0 issued server command: /toggledownfall
+[08:45:28] [Server thread/INFO]: [kylecrane0: Toggled downfall]
+[08:46:06] [Server thread/INFO]: kylecrane0 lost connection: Disconnected
+[08:46:06] [Server thread/INFO]: kylecrane0 left the game.
+[08:59:05] [Thread-10/INFO]: UUID of player kylecrane0 is 6d101a31-eea3-3c38-8375-6e9f60d71847
+[08:59:05] [Server thread/INFO]: kylecrane0[/[0:0:0:0:0:0:0:1]:47436] logged in with entity id 2297 at ([world]19.81624886704445, 64.0, 284.4125729291469)
+[09:04:29] [Server thread/INFO]: kylecrane0 lost connection: Disconnected
+[09:04:29] [Server thread/INFO]: kylecrane0 left the game.
+[09:09:41] [Thread-11/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[09:09:41] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:40794] logged in with entity id 2959 at ([world]5.8067676871845855, 66.0, 307.5361033439167)
+[09:09:57] [Server thread/INFO]: kylecrane issued server command: /claims
+[09:10:13] [Server thread/INFO]: kylecrane issued server command: /butcher
+[09:10:58] [Server thread/INFO]: Unknown command. Type "/help" for help.[m
+
+[09:11:06] [Server thread/INFO]: The entity UUID provided is in an invalid format
+[09:11:34] [Server thread/INFO]: kylecrane issued server command: /say server will stop
+[09:11:34] [Server thread/INFO]: [kylecrane] server will stop
+[09:11:43] [Async Chat Thread - #0/INFO]: <kylecrane> server will stop[m
+
+[09:11:56] [Server thread/INFO]: kylecrane issued server command: /stop
+[09:11:56] [Server thread/INFO]: [kylecrane: Stopping the server]
+[09:11:56] [Server thread/INFO]: Stopping server
+[09:11:56] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[09:11:56] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[09:11:56] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[09:11:56] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[09:11:56] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[09:11:56] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[09:11:56] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+
+[09:11:56] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+
+[09:11:56] [Server thread/INFO]: Saving players
+[09:11:56] [Server thread/INFO]: kylecrane lost connection: Server closed
+[09:11:56] [Server thread/INFO]: kylecrane left the game.
+[09:11:56] [Server thread/INFO]: Saving worlds
+[09:11:56] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[09:11:56] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[09:11:56] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
