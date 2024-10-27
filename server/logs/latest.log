@@ -1,38 +1,38 @@
-[03:03:56] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[03:03:56] [Server thread/INFO]: Loading properties
-[03:03:56] [Server thread/INFO]: Default game type: SURVIVAL
-[03:03:57] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[03:03:57] [Server thread/INFO]: Debug logging is disabled
-[03:03:57] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
-[03:03:57] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:32:50] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[22:32:50] [Server thread/INFO]: Loading properties
+[22:32:50] [Server thread/INFO]: Default game type: SURVIVAL
+[22:32:50] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[22:32:51] [Server thread/INFO]: Debug logging is disabled
+[22:32:51] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:32:51] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[03:03:57] [Server thread/INFO]: Using 4 threads for Netty based IO
-[03:03:57] [Server thread/INFO]: Data value allowed items: 
-[03:03:57] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+[22:32:51] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:32:51] [Server thread/INFO]: Data value allowed items: 
+[22:32:51] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[03:03:57] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+[22:32:51] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[03:03:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+[22:32:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[03:03:57] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+[22:32:51] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[03:03:57] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+[22:32:51] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[03:03:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+[22:32:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[03:03:57] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+[22:32:51] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[03:03:57] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+[22:32:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
 
-[03:03:57] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+[22:32:51] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
 
-[03:03:57] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:32:51] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[03:03:58] [Server thread/INFO]: Generating keypair
-[03:03:59] [Server thread/INFO]: Starting Minecraft server on localhost:25565
-[03:03:59] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
-[03:03:59] [Server thread/INFO]: Using default channel type
-[03:03:59] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
+[22:32:51] [Server thread/INFO]: Generating keypair
+[22:32:51] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[22:32:51] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[22:32:51] [Server thread/INFO]: Using default channel type
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -42,7 +42,8 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:03:59] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
+[22:32:51] [Server thread/ERROR]: Ambiguous plugin name `Shop' for files `plugins/Shop.jar' and `plugins/Shop-LEGACY.jar' in `plugins'
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -52,7 +53,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:03:59] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -62,7 +63,7 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:03:59] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -72,8 +73,15 @@ org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
 	at java.lang.Thread.run(Thread.java:1583) [?:?]
 Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
 	... 6 more
-[03:03:59] [Server thread/INFO]: Set PluginClassLoader as parallel capable
-[03:03:59] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/Shop.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:202) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:32:51] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[22:32:51] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
 org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
@@ -125,580 +133,612 @@ Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
 	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
 	... 6 more
-[03:03:59] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
-[03:03:59] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
-[03:03:59] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
-[03:03:59] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
-[03:03:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[03:03:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[03:03:59] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[03:03:59] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[03:03:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[03:03:59] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
-[03:04:00] [Server thread/INFO]: Preparing level "world"
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:04:00] [Server thread/INFO]: Mob Spawn Range: 4
-[03:04:00] [Server thread/INFO]: Anti X-Ray: true
-[03:04:00] [Server thread/INFO]: 	Engine Mode: 1
-[03:04:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:04:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:04:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:04:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:04:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:04:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:04:00] [Server thread/INFO]: Random Lighting Updates: false
-[03:04:00] [Server thread/INFO]: Structure Info Saving: true
-[03:04:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:04:00] [Server thread/INFO]: Max Entity Collisions: 8
-[03:04:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:04:00] [Server thread/INFO]: Max TNT Explosions: 100
-[03:04:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:04:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:04:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:04:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:04:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:04:00] [Server thread/INFO]: View Distance: 4
-[03:04:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:04:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:04:00] [Server thread/INFO]: Clear tick list: false
-[03:04:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[03:04:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:04:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:04:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:04:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:04:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:04:00] [Server thread/INFO]: Fix TNT cannons: false
-[03:04:00] [Server thread/INFO]: Water over lava flow speed: 5
-[03:04:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:04:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:04:00] [Server thread/INFO]: World async lighting: false
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:04:00] [Server thread/INFO]: Mob Spawn Range: 4
-[03:04:00] [Server thread/INFO]: Anti X-Ray: true
-[03:04:00] [Server thread/INFO]: 	Engine Mode: 1
-[03:04:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:04:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:04:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:04:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:04:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:04:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:04:00] [Server thread/INFO]: Random Lighting Updates: false
-[03:04:00] [Server thread/INFO]: Structure Info Saving: true
-[03:04:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:04:00] [Server thread/INFO]: Max Entity Collisions: 8
-[03:04:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:04:00] [Server thread/INFO]: Max TNT Explosions: 100
-[03:04:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:04:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:04:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:04:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:04:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:04:00] [Server thread/INFO]: View Distance: 4
-[03:04:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:04:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:04:00] [Server thread/INFO]: Clear tick list: false
-[03:04:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[03:04:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:04:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:04:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:04:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:04:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:04:00] [Server thread/INFO]: Fix TNT cannons: false
-[03:04:00] [Server thread/INFO]: Water over lava flow speed: 5
-[03:04:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:04:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:04:00] [Server thread/INFO]: World async lighting: false
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:04:00] [Server thread/INFO]: Mob Spawn Range: 4
-[03:04:00] [Server thread/INFO]: Anti X-Ray: true
-[03:04:00] [Server thread/INFO]: 	Engine Mode: 1
-[03:04:00] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
-[03:04:00] [Server thread/INFO]: 	Replace Blocks: [1, 5]
-[03:04:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[03:04:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[03:04:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
-[03:04:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[03:04:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
-[03:04:00] [Server thread/INFO]: Random Lighting Updates: false
-[03:04:00] [Server thread/INFO]: Structure Info Saving: true
-[03:04:00] [Server thread/INFO]: Sending up to 10 chunks per packet
-[03:04:00] [Server thread/INFO]: Max Entity Collisions: 8
-[03:04:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
-[03:04:00] [Server thread/INFO]: Max TNT Explosions: 100
-[03:04:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[03:04:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[03:04:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[03:04:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[03:04:00] [Server thread/INFO]: Arrow Despawn Rate: 1200
-[03:04:00] [Server thread/INFO]: View Distance: 4
-[03:04:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[03:04:00] [Server thread/INFO]: Chunks to Grow per Tick: 650
-[03:04:00] [Server thread/INFO]: Clear tick list: false
-[03:04:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[03:04:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[03:04:00] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
-[03:04:00] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
-[03:04:00] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
-[03:04:00] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
-[03:04:00] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
-[03:04:00] [Server thread/INFO]: Fix TNT cannons: false
-[03:04:00] [Server thread/INFO]: Water over lava flow speed: 5
-[03:04:00] [Server thread/INFO]: Allow undead horse types to be leashed: false
-[03:04:00] [Server thread/INFO]: Keep spawn chunk loaded: true
-[03:04:00] [Server thread/INFO]: World async lighting: false
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
-[03:04:00] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
-[03:04:01] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
-[03:04:02] [Server thread/INFO]: Preparing spawn area: 2%
-[03:04:03] [Server thread/INFO]: Preparing spawn area: 15%
-[03:04:04] [Server thread/INFO]: Preparing spawn area: 46%
-[03:04:05] [Server thread/INFO]: Preparing spawn area: 82%
-[03:04:05] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
-[03:04:06] [Server thread/INFO]: Preparing spawn area: 2%
-[03:04:07] [Server thread/INFO]: Preparing spawn area: 11%
-[03:04:08] [Server thread/INFO]: Preparing spawn area: 33%
-[03:04:09] [Server thread/INFO]: Preparing spawn area: 50%
-[03:04:10] [Server thread/INFO]: Preparing spawn area: 89%
-[03:04:10] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
-[03:04:11] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
-[03:04:11] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[22:32:51] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[22:32:51] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[22:32:51] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[22:32:51] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[22:32:51] [Server thread/INFO]: [Graves] Loading Graves v4.9
+[22:32:51] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:32:51] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:32:51] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[22:32:51] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[22:32:51] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:32:51] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[22:32:51] [Server thread/INFO]: Preparing level "world"
+[22:32:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:32:51] [Server thread/INFO]: Mob Spawn Range: 4
+[22:32:51] [Server thread/INFO]: Anti X-Ray: true
+[22:32:51] [Server thread/INFO]: 	Engine Mode: 1
+[22:32:51] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:32:51] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:32:51] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:51] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:32:51] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:32:51] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:51] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:32:51] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:51] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:32:51] [Server thread/INFO]: Random Lighting Updates: false
+[22:32:51] [Server thread/INFO]: Structure Info Saving: true
+[22:32:51] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:32:51] [Server thread/INFO]: Max Entity Collisions: 8
+[22:32:51] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:32:51] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:51] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:51] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:51] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:51] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:32:51] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:51] [Server thread/INFO]: View Distance: 4
+[22:32:51] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:51] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:32:51] [Server thread/INFO]: Clear tick list: false
+[22:32:51] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:51] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:32:51] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:32:51] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:32:51] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:32:51] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:32:51] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:32:51] [Server thread/INFO]: Water over lava flow speed: 5
+[22:32:51] [Server thread/INFO]: Fix TNT cannons: false
+[22:32:51] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:32:51] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:32:51] [Server thread/INFO]: World async lighting: false
+[22:32:51] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:32:51] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:32:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:32:52] [Server thread/INFO]: Mob Spawn Range: 4
+[22:32:52] [Server thread/INFO]: Anti X-Ray: true
+[22:32:52] [Server thread/INFO]: 	Engine Mode: 1
+[22:32:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:32:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:32:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:32:52] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:32:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:32:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:32:52] [Server thread/INFO]: Random Lighting Updates: false
+[22:32:52] [Server thread/INFO]: Structure Info Saving: true
+[22:32:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:32:52] [Server thread/INFO]: Max Entity Collisions: 8
+[22:32:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:32:52] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:32:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:52] [Server thread/INFO]: View Distance: 4
+[22:32:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:32:52] [Server thread/INFO]: Clear tick list: false
+[22:32:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:52] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:32:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:32:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:32:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:32:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:32:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:32:52] [Server thread/INFO]: Water over lava flow speed: 5
+[22:32:52] [Server thread/INFO]: Fix TNT cannons: false
+[22:32:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:32:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:32:52] [Server thread/INFO]: World async lighting: false
+[22:32:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:32:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:32:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:32:52] [Server thread/INFO]: Mob Spawn Range: 4
+[22:32:52] [Server thread/INFO]: Anti X-Ray: true
+[22:32:52] [Server thread/INFO]: 	Engine Mode: 1
+[22:32:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:32:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:32:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:32:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:32:52] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:32:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:32:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:32:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:32:52] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:32:52] [Server thread/INFO]: Random Lighting Updates: false
+[22:32:52] [Server thread/INFO]: Structure Info Saving: true
+[22:32:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:32:52] [Server thread/INFO]: Max Entity Collisions: 8
+[22:32:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:32:52] [Server thread/INFO]: Max TNT Explosions: 100
+[22:32:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:32:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:32:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:32:52] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:32:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:32:52] [Server thread/INFO]: View Distance: 4
+[22:32:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:32:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:32:52] [Server thread/INFO]: Clear tick list: false
+[22:32:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:32:52] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:32:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:32:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:32:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:32:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:32:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:32:52] [Server thread/INFO]: Water over lava flow speed: 5
+[22:32:52] [Server thread/INFO]: Fix TNT cannons: false
+[22:32:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:32:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:32:52] [Server thread/INFO]: World async lighting: false
+[22:32:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:32:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:32:52] [Server thread/INFO]: Preparing start region for level 0 (Seed: -4629745041847606928)
+[22:32:53] [Server thread/INFO]: Preparing spawn area: 74%
+[22:32:53] [Server thread/INFO]: Preparing start region for level 1 (Seed: -4629745041847606928)
+[22:32:54] [Server thread/INFO]: Preparing spawn area: 97%
+[22:32:54] [Server thread/INFO]: Preparing start region for level 2 (Seed: -4629745041847606928)
+[22:32:54] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[22:32:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[03:04:11] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
+[22:32:54] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[03:04:11] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
-[03:04:11] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
-[03:04:11] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
-[03:04:12] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
-[03:04:12] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
-[03:04:12] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
-[03:04:12] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
-[03:04:12] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
-[03:04:12] [Server thread/INFO]: [LoginSecurity] Registering commands...
-[03:04:12] [Server thread/INFO]: [LoginSecurity] Registering listeners...
-[03:04:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[03:04:13] [Server thread/INFO]: Done (13.351s)! For help, type "help" or "?"
-[03:04:13] [Server thread/INFO]: Timings Reset
-[03:04:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+[22:32:54] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[22:32:54] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[22:32:54] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[22:32:55] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:32:55] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[22:32:55] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[22:32:55] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[22:32:55] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[22:32:55] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[22:32:55] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[22:32:55] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[22:32:55] [Server thread/INFO]: [Graves] Integration: WorldEdit 6.1;no_git_id detected, Only WorldEdit 7+ is supported.Disabling WorldEdit support.
+[22:32:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:32:55] [Server thread/INFO]: Done (3.580s)! For help, type "help" or "?"
+[22:32:55] [Server thread/INFO]: Timings Reset
+[22:32:55] [Server thread/INFO]: [Graves] Information: Legacy version detected, Graves will run but may have problems with material names, the default config is setup for the latest version of the game, you can alter the config manually to fix any issues you encounter, you will need to find the names of materials and sounds for your version.
+[22:32:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
 
-[03:04:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+[22:32:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
 
-[03:04:14] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+[22:32:56] [Craft Scheduler Thread - 0/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
 
-[03:04:51] [Thread-7/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
-[03:04:51] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:47458] logged in with entity id 208 at ([world]20.657788097370215, 82.24728011590638, 283.41763862578927)
-[03:05:13] [Server thread/INFO]: kylecrane issued server command: /set spawn
-[03:05:20] [Server thread/INFO]: kylecrane issued server command: /setspawn
-[03:06:52] [Thread-8/INFO]: UUID of player Ibeen is d9c88831-b043-35a3-a5ab-185142b4dce2
-[03:06:52] [Server thread/INFO]: Ibeen[/[0:0:0:0:0:0:0:1]:42962] logged in with entity id 15457 at ([world]33.79245641529493, 55.0, 256.6462282076474)
-[03:07:08] [Server thread/INFO]: kylecrane issued server command: /op ibeen
-[03:07:08] [Server thread/INFO]: [kylecrane: Opped ibeen]
-[03:07:19] [Server thread/INFO]: Ibeen issued server command: /tp
-[03:07:23] [Async Chat Thread - #0/INFO]: <Ibeen> oof[m
+[22:33:06] [Thread-7/INFO]: UUID of player kylecrane is f82f0e9e-defa-3cac-bec0-7a81650b8e1f
+[22:33:06] [Server thread/INFO]: kylecrane[/[0:0:0:0:0:0:0:1]:59086] logged in with entity id 208 at ([world]31.590042515346642, 65.0, 264.24615034668284)
+[22:34:11] [Server thread/INFO]: kylecrane issued server command: /gamemode 2
+[22:34:11] [Server thread/INFO]: [kylecrane: Set own game mode to Adventure Mode]
+[22:34:16] [Server thread/INFO]: kylecrane issued server command: /gamemode 1
+[22:34:16] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
+[22:34:23] [Server thread/INFO]: kylecrane issued server command: /difficulty 2
+[22:34:23] [Server thread/INFO]: [kylecrane: Set game difficulty to Normal]
+[22:34:39] [Server thread/INFO]: kylecrane issued server command: /butcher
+[22:36:04] [Server thread/INFO]: kylecrane issued server command: /plugins
+[22:40:48] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
 
-[03:07:24] [Server thread/INFO]: Ibeen suffocated in a wall
-[03:07:32] [Async Chat Thread - #0/INFO]: <kylecrane> where[m
+[22:40:48] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
 
-[03:07:34] [Server thread/INFO]: Ibeen has just earned the achievement [Taking Inventory]
-[03:08:04] [Server thread/INFO]: Ibeen issued server command: /gamemode creative
-[03:08:04] [Server thread/INFO]: [Ibeen: Set own game mode to Creative Mode]
-[03:08:26] [Server thread/INFO]: kylecrane issued server command: /difficulty 2
-[03:08:26] [Server thread/INFO]: [kylecrane: Set game difficulty to Normal]
-[03:09:27] [Async Chat Thread - #1/INFO]: <kylecrane> what you want to do?[m
+[22:40:48] [Server thread/INFO]: Debug logging is disabled
+[22:40:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[22:40:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
 
-[03:09:41] [Async Chat Thread - #1/INFO]: <kylecrane> you can use /enchant[m
+[22:40:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:40:48] [Server thread/INFO]: Data value allowed items: 
+[22:40:48] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
 
-[03:09:54] [Server thread/INFO]: kylecrane issued server command: /enchant unbreaking 3
-[03:09:54] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:10:01] [Server thread/INFO]: kylecrane issued server command: /enchant unbreaking 3
-[03:10:01] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:10:13] [Server thread/INFO]: kylecrane issued server command: /enchant @s unbreaking 3
-[03:10:13] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:10:13] [Async Chat Thread - #1/INFO]: <Ibeen> I'm not good at typeing thats why[m
+[22:40:48] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
 
-[03:10:18] [Async Chat Thread - #1/INFO]: <kylecrane> ah[m
+[22:40:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
 
-[03:12:03] [Server thread/INFO]: kylecrane issued server command: /enchant @s unbreaking 3
-[03:12:03] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:12:07] [Server thread/INFO]: kylecrane issued server command: /enchant @s unbreaking
-[03:12:07] [Server thread/INFO]: [kylecrane: That player cannot be found]
-[03:12:12] [Server thread/INFO]: Ibeen issued server command: /enchant
-[03:12:22] [Server thread/INFO]: Ibeen issued server command: /enchant Ibeen sharpness 5
-[03:12:22] [Server thread/INFO]: [Ibeen: The target doesn't hold an item]
-[03:13:07] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:13:07] [Server thread/INFO]: [kylecrane: Given [Diamond Sword] * 1 to kylecrane]
-[03:13:25] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:13:25] [Server thread/INFO]: [kylecrane: Given [Diamond Sword] * 1 to kylecrane]
-[03:13:30] [Async Chat Thread - #2/INFO]: <Ibeen> Dang[m
+[22:40:48] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 
-[03:13:36] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_sword 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:13:36] [Server thread/INFO]: [kylecrane: Given [Diamond Sword] * 1 to kylecrane]
-[03:13:41] [Async Chat Thread - #2/INFO]: <Ibeen> look at my hoe[m
+[22:40:48] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 
-[03:13:51] [Async Chat Thread - #2/INFO]: <kylecrane> noice[m
+[22:40:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
 
-[03:13:59] [Async Chat Thread - #2/INFO]: <kylecrane> look at my sword[m
+[22:40:48] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
 
-[03:14:20] [Server thread/INFO]: Ibeen issued server command: /gamemode survival
-[03:14:20] [Server thread/INFO]: [Ibeen: Set own game mode to Survival Mode]
-[03:14:23] [Async Chat Thread - #2/INFO]: <Ibeen> hit me[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:716)
 
-[03:14:32] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:14:32] [Server thread/INFO]: [kylecrane: Given [Diamond Hoe] * 1 to kylecrane]
-[03:14:40] [Server thread/INFO]: Ibeen was slain by kylecrane
-[03:14:45] [Server thread/INFO]: Ibeen issued server command: /back
-[03:14:46] [Async Chat Thread - #2/INFO]: <kylecrane> bro[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.Bukkit.reload(Bukkit.java:556)
 
-[03:14:51] [Async Chat Thread - #2/INFO]: <kylecrane> LMAO[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25)
 
-[03:14:58] [Async Chat Thread - #2/INFO]: <Ibeen> Welp my ammor broke[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146)
 
-[03:15:05] [Async Chat Thread - #2/INFO]: <kylecrane> i broke ur aurmor[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666)
 
-[03:15:17] [Server thread/INFO]: Ibeen was slain by kylecrane
-[03:15:27] [Async Chat Thread - #2/INFO]: <kylecrane> brooooooooooooooooo[m
+[22:40:48] [Server thread/WARN]: 	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629)
 
-[03:15:32] [Async Chat Thread - #2/INFO]: <kylecrane> im in tears[m
+[22:40:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416)
 
-[03:15:39] [Server thread/INFO]: Ibeen issued server command: /kill kylecrane
-[03:15:39] [Server thread/INFO]: kylecrane fell out of the world
-[03:15:39] [Server thread/INFO]: [Ibeen: Killed kylecrane]
-[03:15:55] [Server thread/INFO]: kylecrane issued server command: /gamemode s
-[03:15:55] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:16:01] [Server thread/INFO]: kylecrane issued server command: /give @p diamond_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:01] [Server thread/INFO]: [kylecrane: Given [Diamond Hoe] * 1 to kylecrane]
-[03:16:17] [Server thread/INFO]: kylecrane issued server command: /give @p wooden_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:17] [Server thread/INFO]: [kylecrane: Given [Wooden Hoe] * 1 to kylecrane]
-[03:16:20] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:16:25] [Server thread/INFO]: kylecrane issued server command: /give @p wooden_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:25] [Server thread/INFO]: [kylecrane: Given [Wooden Hoe] * 1 to kylecrane]
-[03:16:40] [Server thread/INFO]: kylecrane issued server command: /give @p bow 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:40] [Server thread/INFO]: [kylecrane: Given [Bow] * 1 to kylecrane]
-[03:16:42] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:16:45] [Async Chat Thread - #3/INFO]: <Ibeen> XD[m
+[22:40:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379)
 
-[03:16:49] [Server thread/INFO]: kylecrane issued server command: /give @p bow 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:49] [Server thread/INFO]: [kylecrane: Given [Bow] * 1 to kylecrane]
-[03:16:51] [Server thread/INFO]: kylecrane issued server command: /give @p wooden_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:16:51] [Server thread/INFO]: [kylecrane: Given [Wooden Hoe] * 1 to kylecrane]
-[03:17:02] [Server thread/INFO]: kylecrane was shot by Ibeen
-[03:17:07] [Server thread/INFO]: kylecrane issued server command: /op
-[03:17:08] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:12] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:15] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:20] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:23] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:27] [Async Chat Thread - #3/INFO]: <Ibeen> XD[m
+[22:40:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713)
 
-[03:17:29] [Async Chat Thread - #3/INFO]: <kylecrane> bro[m
+[22:40:48] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616)
 
-[03:17:32] [Server thread/INFO]: kylecrane was slain by Ibeen
-[03:17:38] [Server thread/INFO]: Ibeen issued server command: /kill Ibeen
-[03:17:38] [Server thread/INFO]: Ibeen fell out of the world
-[03:17:38] [Server thread/INFO]: [Ibeen: Killed Ibeen]
-[03:17:44] [Server thread/INFO]: kylecrane issued server command: /gamemode c
-[03:17:44] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:18:12] [Async Chat Thread - #3/INFO]: <Ibeen> imma go[m
+[22:40:48] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
 
-[03:18:14] [Server thread/INFO]: kylecrane issued server command: /give @p bow 1 0 {ench:[{id:14,lvl:5000},{id:34,lvl:5000}]}
-[03:18:14] [Server thread/INFO]: [kylecrane: Given [Bow] * 1 to kylecrane]
-[03:18:16] [Async Chat Thread - #3/INFO]: <Ibeen> Im bored[m
+[22:40:48] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:40:48] [Server thread/INFO]: Mob Spawn Range: 4
+[22:40:48] [Server thread/INFO]: Anti X-Ray: true
+[22:40:48] [Server thread/INFO]: 	Engine Mode: 1
+[22:40:48] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:40:48] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:40:48] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:40:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:40:49] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:40:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:40:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:40:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:40:49] [Server thread/INFO]: Random Lighting Updates: false
+[22:40:49] [Server thread/INFO]: Structure Info Saving: true
+[22:40:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:40:49] [Server thread/INFO]: Max Entity Collisions: 8
+[22:40:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:40:49] [Server thread/INFO]: Max TNT Explosions: 100
+[22:40:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:40:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:40:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:40:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:40:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:40:49] [Server thread/INFO]: View Distance: 4
+[22:40:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:40:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:40:49] [Server thread/INFO]: Clear tick list: false
+[22:40:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:40:49] [Server thread/INFO]: -------- World Settings For [world] --------
+[22:40:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:40:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:40:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:40:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:40:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:40:49] [Server thread/INFO]: Water over lava flow speed: 5
+[22:40:49] [Server thread/INFO]: Fix TNT cannons: false
+[22:40:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:40:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:40:49] [Server thread/INFO]: World async lighting: false
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:40:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:40:49] [Server thread/INFO]: Mob Spawn Range: 4
+[22:40:49] [Server thread/INFO]: Anti X-Ray: true
+[22:40:49] [Server thread/INFO]: 	Engine Mode: 1
+[22:40:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:40:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:40:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:40:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:40:49] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:40:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:40:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:40:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:40:49] [Server thread/INFO]: Random Lighting Updates: false
+[22:40:49] [Server thread/INFO]: Structure Info Saving: true
+[22:40:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:40:49] [Server thread/INFO]: Max Entity Collisions: 8
+[22:40:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:40:49] [Server thread/INFO]: Max TNT Explosions: 100
+[22:40:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:40:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:40:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:40:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:40:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:40:49] [Server thread/INFO]: View Distance: 4
+[22:40:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:40:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:40:49] [Server thread/INFO]: Clear tick list: false
+[22:40:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:40:49] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[22:40:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:40:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:40:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:40:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:40:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:40:49] [Server thread/INFO]: Water over lava flow speed: 5
+[22:40:49] [Server thread/INFO]: Fix TNT cannons: false
+[22:40:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:40:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:40:49] [Server thread/INFO]: World async lighting: false
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:40:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:40:49] [Server thread/INFO]: Mob Spawn Range: 4
+[22:40:49] [Server thread/INFO]: Anti X-Ray: true
+[22:40:49] [Server thread/INFO]: 	Engine Mode: 1
+[22:40:49] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[22:40:49] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[22:40:49] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[22:40:49] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Cane Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Melon Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Sapling Growth Modifier: 1000%
+[22:40:49] [Server thread/INFO]: Wheat Growth Modifier: 1000000%
+[22:40:49] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[22:40:49] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[22:40:49] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[22:40:49] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 8 Hopper Amount: 1
+[22:40:49] [Server thread/INFO]: Random Lighting Updates: false
+[22:40:49] [Server thread/INFO]: Structure Info Saving: true
+[22:40:49] [Server thread/INFO]: Sending up to 10 chunks per packet
+[22:40:49] [Server thread/INFO]: Max Entity Collisions: 8
+[22:40:49] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[22:40:49] [Server thread/INFO]: Max TNT Explosions: 100
+[22:40:49] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[22:40:49] [Server thread/INFO]: Item Despawn Rate: 6000
+[22:40:49] [Server thread/INFO]: Item Merge Radius: 2.5
+[22:40:49] [Server thread/INFO]: Arrow Despawn Rate: 1200
+[22:40:49] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[22:40:49] [Server thread/INFO]: View Distance: 4
+[22:40:49] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[22:40:49] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[22:40:49] [Server thread/INFO]: Clear tick list: false
+[22:40:49] [Server thread/INFO]: Experience Merge Radius: 3.0
+[22:40:49] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[22:40:49] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[22:40:49] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[22:40:49] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[22:40:49] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[22:40:49] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[22:40:49] [Server thread/INFO]: Water over lava flow speed: 5
+[22:40:49] [Server thread/INFO]: Fix TNT cannons: false
+[22:40:49] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[22:40:49] [Server thread/INFO]: Keep spawn chunk loaded: true
+[22:40:49] [Server thread/INFO]: World async lighting: false
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[22:40:49] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[22:40:49] [Server thread/INFO]: [Graves] Disabling Graves v4.9
+[22:40:49] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
+[22:40:49] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
+[22:40:49] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
+[22:40:49] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
+[22:40:49] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
+[22:40:49] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
+[22:40:49] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[03:18:39] [Server thread/INFO]: kylecrane issued server command: /gamemode s
-[03:18:39] [Server thread/INFO]: [kylecrane: Set own game mode to Survival Mode]
-[03:18:46] [Server thread/INFO]: Ibeen was slain by kylecrane
-[03:18:54] [Server thread/INFO]: Ibeen was slain by kylecrane
-[03:19:11] [Server thread/INFO]: Ibeen was slain by kylecrane
-[03:19:20] [Server thread/INFO]: Ibeen issued server command: /kill kylecrane
-[03:19:20] [Server thread/INFO]: kylecrane fell out of the world
-[03:19:20] [Server thread/INFO]: [Ibeen: Killed kylecrane]
-[03:19:30] [Server thread/INFO]: kylecrane issued server command: /kill @e
-[03:19:30] [Server thread/INFO]: kylecrane fell out of the world
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed kylecrane]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Experience Orb]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: Ibeen fell out of the world
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Ibeen]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Horse]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Pig]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Rabbit]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Sheep]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:30] [Server thread/INFO]: [kylecrane: Killed Cow]
-[03:19:33] [Server thread/INFO]: kylecrane issued server command: /kill @e
-[03:19:33] [Server thread/INFO]: Ibeen fell out of the world
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Ibeen]
-[03:19:33] [Server thread/INFO]: kylecrane fell out of the world
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed kylecrane]
-[03:19:33] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.muttonRaw]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.tile.cloth.gray]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:33] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bootsDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeWood]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.tile.anvil.intact]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hatchetDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.porkchopRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.swordDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.tile.torch]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.glassBottle]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.flintAndSteel]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.stick]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.shovelDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.swordDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.swordDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.swordDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeWood]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.redstone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeWood]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.pickaxeDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.string]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.helmetDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.diamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.tile.stonebrick]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Experience Orb]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.hoeDiamond]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.beefRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Chicken]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Bat]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.chickenRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.feather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.porkchopRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.porkchopRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.beefRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Zombie]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Spider]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.string]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Skeleton]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.bone]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.arrow]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: That entity cannot be found]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed Creeper]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.porkchopRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.porkchopRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.sulphur]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rottenFlesh]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.beefRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.tile.cloth.white]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rabbitRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.rabbitHide]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.muttonRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.beefRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.beefRaw]
-[03:19:34] [Server thread/INFO]: [kylecrane: Killed item.item.leather]
-[03:19:44] [Async Chat Thread - #4/INFO]: <kylecrane> bro this bow is so cursed[m
+[22:40:49] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
 
-[03:19:51] [Server thread/INFO]: Ibeen issued server command: /kill all
-[03:19:51] [Server thread/INFO]: [Ibeen: The entity UUID provided is in an invalid format]
-[03:19:57] [Async Chat Thread - #4/INFO]: <Ibeen> bye[m
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/Xaeros_Minimap_24.5.1_Forge_1.18.2.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+[22:40:49] [Server thread/ERROR]: Ambiguous plugin name `Shop' for files `plugins/Shop.jar' and `plugins/Shop-LEGACY.jar' in `plugins'
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/GraveStone Mod 1.1.7.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/crashma-every-r1.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/NE-1.21.1-1.10.0.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidDescriptionException: Invalid plugin.yml
+	at org.bukkit.plugin.java.JavaPluginLoader.getPluginDescription(JavaPluginLoader.java:152) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:136) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.io.FileNotFoundException: Jar does not contain plugin.yml
+	... 14 more
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/Shop.jar' in folder 'plugins'
+org.bukkit.plugin.UnknownDependencyException: Vault
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:222) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[22:40:49] [Server thread/ERROR]: Could not load 'plugins/LuckPerms-Bungee-5.4.141.jar' in folder 'plugins'
+org.bukkit.plugin.InvalidPluginException: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:133) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugin(SimplePluginManager.java:331) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.SimplePluginManager.loadPlugins(SimplePluginManager.java:254) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.loadPlugins(CraftServer.java:293) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.reload(CraftServer.java:767) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.Bukkit.reload(Bukkit.java:556) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.defaults.ReloadCommand.execute(ReloadCommand.java:25) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.command.SimpleCommandMap.dispatch(SimpleCommandMap.java:146) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchCommand(CraftServer.java:666) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.CraftServer.dispatchServerCommand(CraftServer.java:629) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.aO(DedicatedServer.java:416) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.DedicatedServer.B(DedicatedServer.java:379) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.A(MinecraftServer.java:713) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:616) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+Caused by: java.lang.NoClassDefFoundError: net/md_5/bungee/api/plugin/Plugin
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 14 more
+Caused by: java.lang.ClassNotFoundException: net.md_5.bungee.api.plugin.Plugin
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:445) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1027) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:524) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:427) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:421) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:714) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:420) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:102) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.PluginClassLoader.findClass(PluginClassLoader.java:87) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:593) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.forName0(Native Method) ~[?:?]
+	at java.lang.Class.forName(Class.java:534) ~[?:?]
+	at java.lang.Class.forName(Class.java:513) ~[?:?]
+	at org.bukkit.plugin.java.PluginClassLoader.<init>(PluginClassLoader.java:65) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.plugin.java.JavaPluginLoader.loadPlugin(JavaPluginLoader.java:129) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	... 14 more
+[22:40:49] [Server thread/INFO]: [SimpleTpa] Loading SimpleTpa v6.4
+[22:40:49] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.9.0
+[22:40:49] [Server thread/INFO]: [SimpleHomes] Loading SimpleHomes v2.2
+[22:40:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[22:40:49] [Server thread/INFO]: [InfoHUD] Loading InfoHUD v1.5.4
+[22:40:49] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.2.0
+[22:40:49] [Server thread/INFO]: [Graves] Loading Graves v4.9
+[22:40:49] [Server thread/INFO]: [SimpleTpa] Enabling SimpleTpa v6.4
+[22:40:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
 
-[03:19:59] [Server thread/INFO]: Ibeen lost connection: Disconnected
-[03:19:59] [Server thread/INFO]: Ibeen left the game.
-[03:20:01] [Server thread/INFO]: kylecrane issued server command: /give @p bow 1 0 {ench:[{id:14,lvl:5000},{id:34,lvl:5000}]}
-[03:20:01] [Server thread/INFO]: [kylecrane: Given [Bow] * 1 to kylecrane]
-[03:20:16] [Server thread/INFO]: kylecrane was slain by Zombie
-[03:20:25] [Server thread/INFO]: kylecrane issued server command: /give @p wooden_hoe 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:20:25] [Server thread/INFO]: [kylecrane: Given [Wooden Hoe] * 1 to kylecrane]
-[03:20:47] [Server thread/INFO]: kylecrane issued server command: /gamemode c\
-[03:20:47] [Server thread/INFO]: [kylecrane: 'c\' is not a valid number]
-[03:20:50] [Server thread/INFO]: kylecrane issued server command: /gamemode c
-[03:20:50] [Server thread/INFO]: [kylecrane: Set own game mode to Creative Mode]
-[03:21:50] [Server thread/INFO]: kylecrane issued server command: /give @p stick 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:21:50] [Server thread/INFO]: [kylecrane: Given [Stick] * 1 to kylecrane]
-[03:22:01] [Server thread/INFO]: kylecrane issued server command: /give @p dirt 1 0 {ench:[{id:16,lvl:5000},{id:34,lvl:5000}]}
-[03:22:01] [Server thread/INFO]: [kylecrane: Given [Dirt] * 1 to kylecrane]
-[03:23:40] [Server thread/INFO]: kylecrane issued server command: /butcher
-[03:23:47] [Server thread/INFO]: kylecrane lost connection: Disconnected
-[03:23:47] [Server thread/INFO]: kylecrane left the game.
-[03:24:14] [Server thread/INFO]: Stopping the server
-[03:24:14] [Server thread/INFO]: Stopping server
-[03:24:14] [Server thread/INFO]: [LoginSecurity] Disabling LoginSecurity v3.2.0
-[03:24:14] [Server thread/INFO]: [LoginSecurity] Waiting for queued tasks...
-[03:24:14] [Server thread/INFO]: [LoginSecurity] ExecutorService shut down, ready to disable.
-[03:24:14] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v6.1;no_git_id
-[03:24:14] [Server thread/INFO]: [SimpleHomes] Disabling SimpleHomes v2.2
-[03:24:14] [Server thread/INFO]: [SimpleTpa] Disabling SimpleTpa v6.4
-[03:24:14] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] If you need support contact me at https://discord.gg/SZUkza9[m
+[22:40:49] [Server thread/INFO]: [0;33;1m[21m[SimpleTpa] Simple Tpa has been enabled on version 6.4[m
 
-[03:24:14] [Server thread/INFO]: [0;36;1m[21m[SimpleTpa] Simple Tpa has been disabled on version 6.4[m
+[22:40:49] [Server thread/INFO]: Enabled metrics. You may opt-out by changing plugins/bStats/config.yml
+[22:40:49] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.9.0
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
 
-[03:24:14] [Server thread/INFO]: Saving players
-[03:24:14] [Server thread/INFO]: Saving worlds
-[03:24:14] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[03:24:14] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[03:24:14] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Default shops layout compatible with 18 created at /workspaces/server-test/server/plugins/EconomyShopGUI/shops[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to automatically load an available economy provider, this plugin requires one, disabling...[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: See a list of available economy providers on our wiki here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider[m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[22:40:49] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[22:40:49] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.9.0
+[22:40:49] [Server thread/INFO]: [SimpleHomes] Enabling SimpleHomes v2.2
+[22:40:49] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[22:40:50] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[22:40:50] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[22:40:50] [Server thread/INFO]: [InfoHUD] Enabling InfoHUD v1.5.4
+[22:40:50] [Server thread/INFO]: [0;36;22m[InfoHUD] [m[0;32;1mInfoHUD Enabling...[m
+
+[22:40:50] [Server thread/INFO]: [0;36;22m[InfoHUD] [m[0;32;1mSpigot API unavailable or incompatible:falling back to NMS[m
+
+[22:40:50] [Server thread/INFO]: [0;36;22m[InfoHUD] [m[0;32;1mInfoHUD Successfully Enabled on [0;37;1mNMS v1.8[m
+
+[22:40:50] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.2.0
+[22:40:50] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[22:40:50] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[22:40:50] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[22:40:50] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[22:40:50] [Server thread/INFO]: [Graves] Enabling Graves v4.9
+[22:40:50] [Server thread/INFO]: [Graves] Integration: WorldEdit 6.1;no_git_id detected, Only WorldEdit 7+ is supported.Disabling WorldEdit support.
+[22:40:50] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:40:50] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+
+[22:40:50] [Server thread/INFO]: Timings Reset
+[22:40:50] [Server thread/INFO]: [Graves] Information: Legacy version detected, Graves will run but may have problems with material names, the default config is setup for the latest version of the game, you can alter the config manually to fix any issues you encounter, you will need to find the names of materials and sounds for your version.
+[22:40:50] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[21m[SimpleTpa] There is a new update available.[m
+
+[22:40:50] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] There is a new update available:[m
+
+[22:40:50] [Craft Scheduler Thread - 3/INFO]: [0;31;1m[SimpleTpa] https://www.spigotmc.org/resources/simple-tpa.64270/[m
+
